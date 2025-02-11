@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		9FDF98532D5B9B4F00A698AE /* Week3Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week3Assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FDF98532D5B9B4F00A698AE /* Week3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -40,7 +40,7 @@
 		9FDF98542D5B9B4F00A698AE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9FDF98532D5B9B4F00A698AE /* Week3Assignment.app */,
+				9FDF98532D5B9B4F00A698AE /* Week3.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9FDF98522D5B9B4F00A698AE /* Week3Assignment */ = {
+		9FDF98522D5B9B4F00A698AE /* Week3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9FDF98612D5B9B5100A698AE /* Build configuration list for PBXNativeTarget "Week3Assignment" */;
+			buildConfigurationList = 9FDF98612D5B9B5100A698AE /* Build configuration list for PBXNativeTarget "Week3" */;
 			buildPhases = (
 				9FDF984F2D5B9B4F00A698AE /* Sources */,
 				9FDF98502D5B9B4F00A698AE /* Frameworks */,
@@ -63,11 +63,11 @@
 			fileSystemSynchronizedGroups = (
 				9FDF98552D5B9B4F00A698AE /* Week3Assignment */,
 			);
-			name = Week3Assignment;
+			name = Week3;
 			packageProductDependencies = (
 			);
 			productName = Week3Assignment;
-			productReference = 9FDF98532D5B9B4F00A698AE /* Week3Assignment.app */;
+			productReference = 9FDF98532D5B9B4F00A698AE /* Week3.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9FDF984E2D5B9B4F00A698AE /* Build configuration list for PBXProject "Week3Assignment" */;
+			buildConfigurationList = 9FDF984E2D5B9B4F00A698AE /* Build configuration list for PBXProject "Week3" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9FDF98522D5B9B4F00A698AE /* Week3Assignment */,
+				9FDF98522D5B9B4F00A698AE /* Week3 */,
 			);
 		};
 /* End PBXProject section */
@@ -305,7 +305,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9FDF984E2D5B9B4F00A698AE /* Build configuration list for PBXProject "Week3Assignment" */ = {
+		9FDF984E2D5B9B4F00A698AE /* Build configuration list for PBXProject "Week3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9FDF985F2D5B9B5100A698AE /* Debug */,
@@ -314,7 +314,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9FDF98612D5B9B5100A698AE /* Build configuration list for PBXNativeTarget "Week3Assignment" */ = {
+		9FDF98612D5B9B5100A698AE /* Build configuration list for PBXNativeTarget "Week3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9FDF98622D5B9B5100A698AE /* Debug */,
