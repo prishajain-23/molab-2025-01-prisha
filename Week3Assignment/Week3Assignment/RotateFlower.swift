@@ -1,3 +1,5 @@
+// working off the Developer Tutorials https://developer.apple.com/tutorials/swiftui
+
 import SwiftUI
 
 struct RotateBezierFlower: View {
