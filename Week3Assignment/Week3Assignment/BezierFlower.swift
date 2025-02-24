@@ -1,5 +1,9 @@
 import SwiftUI
 
+// hook up sliders to the parameters to lern more about the curves
+// maybe check p5 bezier
+
+
 struct BezierFlower: View {
     var body: some View {
         GeometryReader { geometry in
@@ -42,7 +46,7 @@ struct BezierFlower: View {
                 Gradient(colors: [Self.gradientStart, Self.gradientEnd]),
                 startPoint: UnitPoint(x: 0.5, y: 0),
                 endPoint: UnitPoint(x: 0.5, y: 0.6)
-            ), lineWidth: 5.0)
+            ), lineWidth: 3.0)
         }
         .aspectRatio(1, contentMode: .fit)
     }
