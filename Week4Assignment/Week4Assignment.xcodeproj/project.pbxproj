@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		9F073FA62D6C21B3008F815D /* SongsAndSamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SongsAndSamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F073FA62D6C21B3008F815D /* Week4Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week4Assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		9F073FA82D6C21B3008F815D /* SongsAndSamples */ = {
+		9F073FA82D6C21B3008F815D /* Week4Assignment */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SongsAndSamples;
+			path = Week4Assignment;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		9F073F9D2D6C21B3008F815D = {
 			isa = PBXGroup;
 			children = (
-				9F073FA82D6C21B3008F815D /* SongsAndSamples */,
+				9F073FA82D6C21B3008F815D /* Week4Assignment */,
 				9F073FA72D6C21B3008F815D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +40,7 @@
 		9F073FA72D6C21B3008F815D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9F073FA62D6C21B3008F815D /* SongsAndSamples.app */,
+				9F073FA62D6C21B3008F815D /* Week4Assignment.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9F073FA52D6C21B3008F815D /* SongsAndSamples */ = {
+		9F073FA52D6C21B3008F815D /* Week4Assignment */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9F073FB42D6C21B4008F815D /* Build configuration list for PBXNativeTarget "SongsAndSamples" */;
+			buildConfigurationList = 9F073FB42D6C21B4008F815D /* Build configuration list for PBXNativeTarget "Week4Assignment" */;
 			buildPhases = (
 				9F073FA22D6C21B3008F815D /* Sources */,
 				9F073FA32D6C21B3008F815D /* Frameworks */,
@@ -61,13 +61,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				9F073FA82D6C21B3008F815D /* SongsAndSamples */,
+				9F073FA82D6C21B3008F815D /* Week4Assignment */,
 			);
-			name = SongsAndSamples;
+			name = Week4Assignment;
 			packageProductDependencies = (
 			);
 			productName = SongsAndSamples;
-			productReference = 9F073FA62D6C21B3008F815D /* SongsAndSamples.app */;
+			productReference = 9F073FA62D6C21B3008F815D /* Week4Assignment.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9F073FA12D6C21B3008F815D /* Build configuration list for PBXProject "SongsAndSamples" */;
+			buildConfigurationList = 9F073FA12D6C21B3008F815D /* Build configuration list for PBXProject "Week4Assignment" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9F073FA52D6C21B3008F815D /* SongsAndSamples */,
+				9F073FA52D6C21B3008F815D /* Week4Assignment */,
 			);
 		};
 /* End PBXProject section */
@@ -251,21 +251,20 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SongsAndSamples/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Week4Assignment/Preview Content\"";
 				DEVELOPMENT_TEAM = U24HL57839;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "molab-2025.SongsAndSamples";
+				PRODUCT_BUNDLE_IDENTIFIER = "molab-2025.Week4Assignment";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -280,21 +279,20 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SongsAndSamples/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Week4Assignment/Preview Content\"";
 				DEVELOPMENT_TEAM = U24HL57839;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "molab-2025.SongsAndSamples";
+				PRODUCT_BUNDLE_IDENTIFIER = "molab-2025.Week4Assignment";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -305,7 +303,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9F073FA12D6C21B3008F815D /* Build configuration list for PBXProject "SongsAndSamples" */ = {
+		9F073FA12D6C21B3008F815D /* Build configuration list for PBXProject "Week4Assignment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9F073FB22D6C21B4008F815D /* Debug */,
@@ -314,7 +312,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9F073FB42D6C21B4008F815D /* Build configuration list for PBXNativeTarget "SongsAndSamples" */ = {
+		9F073FB42D6C21B4008F815D /* Build configuration list for PBXNativeTarget "Week4Assignment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9F073FB52D6C21B4008F815D /* Debug */,
