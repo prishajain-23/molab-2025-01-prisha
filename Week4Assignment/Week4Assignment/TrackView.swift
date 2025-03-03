@@ -8,13 +8,13 @@
 import SwiftUI
 
 struct TrackView: View {
-    var trackName: String
-    var trackImageName: String  // New property for the track image
+    var trackName: String = "Example trackName"
+    var trackImageName: String  = "Example Image Name" // New property for the track image
     @Binding var volume: Float
     @Binding var waveformData: [CGFloat]
     var buttonColor: Color
     @Binding var isPlaying: Bool
-    var togglePlayback: () -> Void
+  var togglePlayback: () -> Void = { }
 
     var body: some View {
         VStack {
@@ -73,6 +73,8 @@ struct WaveformView: View {
 }
 
 
-//#Preview {
-//    TrackView()
-//}
+#Preview {
+  @Previewable
+  @State var waveformData: [CGFloat] = Array(repeating: 0.5, count: 100)
+  TrackView(volume: .constant(0.5), waveformData: $waveformData, buttonColor: Color.blue, isPlaying: .constant(false))
+}
