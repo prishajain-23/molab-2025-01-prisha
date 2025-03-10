@@ -1,14 +1,14 @@
 //
-//  Week06_jhtApp.swift
-//  Week06-jht
+//  Week6AssignmentApp.swift
+//  Week6Assignment
 //
-//  Created by jht2 on 3/4/25.
+//  Created by Prisha Jain on 3/8/25.
 //
 
 import SwiftUI
 
 @main
-struct Week06_jhtApp: App {
+struct Week6AssignmentApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
