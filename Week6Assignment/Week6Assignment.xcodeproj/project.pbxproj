@@ -25,6 +25,7 @@
 		9FC040D22D7D02B90018A25D /* PianoKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC040D12D7D02B90018A25D /* PianoKey.swift */; };
 		9FC040D42D7D02D30018A25D /* KeyboardLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC040D32D7D02D30018A25D /* KeyboardLayout.swift */; };
 		9FC040D62D7D03890018A25D /* MIDIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC040D52D7D03890018A25D /* MIDIHelper.swift */; };
+		9FD667282D808263009F1361 /* CookbookCommon in Frameworks */ = {isa = PBXBuildFile; productRef = 9FD667272D808263009F1361 /* CookbookCommon */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		9FC040D12D7D02B90018A25D /* PianoKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoKey.swift; sourceTree = "<group>"; };
 		9FC040D32D7D02D30018A25D /* KeyboardLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardLayout.swift; sourceTree = "<group>"; };
 		9FC040D52D7D03890018A25D /* MIDIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIDIHelper.swift; sourceTree = "<group>"; };
+		9FD667252D808216009F1361 /* CookbookCommon */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CookbookCommon; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FD667282D808263009F1361 /* CookbookCommon in Frameworks */,
 				9F047CAD2D7CF5A5008E03DE /* CookbookCommon in Frameworks */,
 				9F047C9A2D7CF15D008E03DE /* AudioKit in Frameworks */,
 			);
@@ -111,6 +114,7 @@
 				9FC040D52D7D03890018A25D /* MIDIHelper.swift */,
 				9F00F16A2D7D0C90005A150C /* MusicTheory (not used).swift */,
 				9F00F1692D7D064D005A150C /* Synth (not used) */,
+				9FD667252D808216009F1361 /* CookbookCommon */,
 			);
 			path = Week6Assignment;
 			sourceTree = "<group>";
@@ -134,6 +138,7 @@
 			packageProductDependencies = (
 				9F047C992D7CF15D008E03DE /* AudioKit */,
 				9F047CAC2D7CF5A5008E03DE /* CookbookCommon */,
+				9FD667272D808263009F1361 /* CookbookCommon */,
 			);
 			productName = Week6Assignment;
 			productReference = 9F047C872D7CE197008E03DE /* Week6Assignment.app */;
@@ -165,7 +170,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				9F047C982D7CF15D008E03DE /* XCRemoteSwiftPackageReference "AudioKit" */,
-				9F047CAB2D7CF5A5008E03DE /* XCLocalSwiftPackageReference "../../../GitHub/Cookbook/Cookbook/CookbookCommon" */,
+				9FD667262D808263009F1361 /* XCLocalSwiftPackageReference "Week6Assignment/CookbookCommon" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 9F047C882D7CE197008E03DE /* Products */;
@@ -415,9 +420,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		9F047CAB2D7CF5A5008E03DE /* XCLocalSwiftPackageReference "../../../GitHub/Cookbook/Cookbook/CookbookCommon" */ = {
+		9FD667262D808263009F1361 /* XCLocalSwiftPackageReference "Week6Assignment/CookbookCommon" */ = {
 			isa = XCLocalSwiftPackageReference;
-			relativePath = ../../../GitHub/Cookbook/Cookbook/CookbookCommon;
+			relativePath = Week6Assignment/CookbookCommon;
 		};
 /* End XCLocalSwiftPackageReference section */
 
@@ -439,6 +444,10 @@
 			productName = AudioKit;
 		};
 		9F047CAC2D7CF5A5008E03DE /* CookbookCommon */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CookbookCommon;
+		};
+		9FD667272D808263009F1361 /* CookbookCommon */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = CookbookCommon;
 		};
