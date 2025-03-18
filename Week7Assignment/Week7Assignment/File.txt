@@ -1,0 +1,55 @@
+//
+//  UIImage+Extension.swift
+//  AverageBackgroundColor
+//
+//  Created by Brandon Baars on 5/23/20.
+//  Copyright © 2020 Brandon Baars. All rights reserved.
+//
+
+import UIKit
+import CoreImage
+
+extension UIImage {
+    /// Average color of the image, nil if it cannot be found
+    var averageColor: UIColor? {
+        // Convert our image to a Core Image object
+        guard let inputImage = CIImage(image: self) else { return nil }
+
+        // Create an extent vector (a frame with width and height of our current input image)
+        let extentVector = CIVector(
+            x: inputImage.extent.origin.x,
+            y: inputImage.extent.origin.y,
+            z: inputImage.extent.size.width,
+            w: inputImage.extent.size.height
+        )
+
+        // Create a CIAreaAverage filter, which will calculate the average color of the image
+        guard let filter = CIFilter(name: "CIAreaAverage", parameters: [
+            kCIInputImageKey: inputImage,
+            kCIInputExtentKey: extentVector
+        ]),
+        let outputImage = filter.outputImage else { return nil }
+
+        // A bitmap consisting of (r, g, b, a) values
+        var bitmap = [UInt8](repeating: 0, count: 4)
+        let context = CIContext(options: [.workingColorSpace: kCFNull!])
+
+        // Render the output image into a 1x1 image, updating the bitmap array with the rgba values
+        context.render(
+            outputImage,
+            toBitmap: &bitmap,
+            rowBytes: 4,
+            bounds: CGRect(x: 0, y: 0, width: 1, height: 1),
+            format: .RGBA8,
+            colorSpace: nil
+        )
+
+        // Convert our bitmap images of r, g, b, a to a UIColor
+        return UIColor(
+            red: CGFloat(bitmap[0]) / 255,
+            green: CGFloat(bitmap[1]) / 255,
+            blue: CGFloat(bitmap[2]) / 255,
+            alpha: CGFloat(bitmap[3]) / 255
+        )
+    }
+}
