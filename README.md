@@ -1,2 +1,2 @@
 # molab-2025-prisha
-All the work i've done for ITP's Mobile App Development Class
+  Everything I'm doing for John Henry Thompson's Mobile App Development Lab @ NYU ITP! Working with SwiftUI and AudioKit.
