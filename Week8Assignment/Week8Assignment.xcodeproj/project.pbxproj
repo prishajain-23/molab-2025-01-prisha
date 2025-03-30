@@ -11,10 +11,8 @@
 		9FA70DAA2D8DDDA100E775A5 /* AudioKitUI in Frameworks */ = {isa = PBXBuildFile; productRef = 9FA70DA92D8DDDA100E775A5 /* AudioKitUI */; };
 		9FA70DAD2D8DDDC100E775A5 /* DunneAudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9FA70DAC2D8DDDC100E775A5 /* DunneAudioKit */; };
 		9FA70DB22D8DE12100E775A5 /* Keyboard in Frameworks */ = {isa = PBXBuildFile; productRef = 9FA70DB12D8DE12100E775A5 /* Keyboard */; };
-		9FA70DB42D97463900E775A5 /* ModelViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA70DB32D97463900E775A5 /* ModelViewer.swift */; };
 		9FA70DB82D9746BD00E775A5 /* ddj_flx4_pioneer.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 9FA70DB72D9746BD00E775A5 /* ddj_flx4_pioneer.usdz */; };
-		9FA70DBA2D99A10100E775A5 /* 3DBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA70DB92D99A10100E775A5 /* 3DBoardView.swift */; };
-		9FA70DBC2D99A40300E775A5 /* BoardPartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA70DBB2D99A40300E775A5 /* BoardPartsView.swift */; };
+		9FA70DC42D99EAD200E775A5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9FA70DC32D99EAD200E775A5 /* README.md */; };
 		9FAE97142D8B3B08003B496F /* AudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9FAE97132D8B3B08003B496F /* AudioKit */; };
 		9FE4179D2D8CC3C800C1195C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FE417972D8CC3C800C1195C /* Preview Assets.xcassets */; };
 		9FE4179E2D8CC3C800C1195C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FE417992D8CC3C800C1195C /* Assets.xcassets */; };
@@ -23,10 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9FA70DB32D97463900E775A5 /* ModelViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelViewer.swift; sourceTree = "<group>"; };
 		9FA70DB72D9746BD00E775A5 /* ddj_flx4_pioneer.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = ddj_flx4_pioneer.usdz; sourceTree = "<group>"; };
-		9FA70DB92D99A10100E775A5 /* 3DBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3DBoardView.swift; sourceTree = "<group>"; };
-		9FA70DBB2D99A40300E775A5 /* BoardPartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardPartsView.swift; sourceTree = "<group>"; };
+		9FA70DC32D99EAD200E775A5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9FAE97012D8B3AAD003B496F /* Week8Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week8Assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FE417972D8CC3C800C1195C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9FE417992D8CC3C800C1195C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +34,21 @@
 		9FA70DB62D97468F00E775A5 /* Unused Files */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "Unused Files";
+			sourceTree = "<group>";
+		};
+		9FA70DC72D99EC9400E775A5 /* 3D DJ Board */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "3D DJ Board";
+			sourceTree = "<group>";
+		};
+		9FA70DC82D99ECB400E775A5 /* Audio Handling */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Audio Handling";
+			sourceTree = "<group>";
+		};
+		9FA70DC92D99ECCE00E775A5 /* Modular DJ Board */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Modular DJ Board";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -61,6 +72,7 @@
 		9FAE96F82D8B3AAD003B496F = {
 			isa = PBXGroup;
 			children = (
+				9FA70DC32D99EAD200E775A5 /* README.md */,
 				9FE4179C2D8CC3C800C1195C /* Week8Assignment */,
 				9FAE97022D8B3AAD003B496F /* Products */,
 				9FA70DB72D9746BD00E775A5 /* ddj_flx4_pioneer.usdz */,
@@ -90,9 +102,9 @@
 				9FE417992D8CC3C800C1195C /* Assets.xcassets */,
 				9FE4179B2D8CC3C800C1195C /* Week8AssignmentApp.swift */,
 				9FE4179A2D8CC3C800C1195C /* ContentView.swift */,
-				9FA70DBB2D99A40300E775A5 /* BoardPartsView.swift */,
-				9FA70DB92D99A10100E775A5 /* 3DBoardView.swift */,
-				9FA70DB32D97463900E775A5 /* ModelViewer.swift */,
+				9FA70DC92D99ECCE00E775A5 /* Modular DJ Board */,
+				9FA70DC82D99ECB400E775A5 /* Audio Handling */,
+				9FA70DC72D99EC9400E775A5 /* 3D DJ Board */,
 				9FA70DB62D97468F00E775A5 /* Unused Files */,
 			);
 			path = Week8Assignment;
@@ -115,6 +127,9 @@
 			);
 			fileSystemSynchronizedGroups = (
 				9FA70DB62D97468F00E775A5 /* Unused Files */,
+				9FA70DC72D99EC9400E775A5 /* 3D DJ Board */,
+				9FA70DC82D99ECB400E775A5 /* Audio Handling */,
+				9FA70DC92D99ECCE00E775A5 /* Modular DJ Board */,
 			);
 			name = Week8Assignment;
 			packageProductDependencies = (
@@ -176,6 +191,7 @@
 			files = (
 				9FE4179D2D8CC3C800C1195C /* Preview Assets.xcassets in Resources */,
 				9FA70DB82D9746BD00E775A5 /* ddj_flx4_pioneer.usdz in Resources */,
+				9FA70DC42D99EAD200E775A5 /* README.md in Resources */,
 				9FE4179E2D8CC3C800C1195C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -189,9 +205,6 @@
 			files = (
 				9FE4179F2D8CC3C800C1195C /* ContentView.swift in Sources */,
 				9FE417A02D8CC3C800C1195C /* Week8AssignmentApp.swift in Sources */,
-				9FA70DBC2D99A40300E775A5 /* BoardPartsView.swift in Sources */,
-				9FA70DB42D97463900E775A5 /* ModelViewer.swift in Sources */,
-				9FA70DBA2D99A10100E775A5 /* 3DBoardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
