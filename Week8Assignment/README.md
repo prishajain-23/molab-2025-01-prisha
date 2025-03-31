@@ -7,3 +7,6 @@ This is the survey I made for user research: https://forms.gle/Mq5uEKJ8LGXq5Yz76
 
 ## Notes along the way
 - 
+
+## Sources
+- using this tutorial for sounds (free to use) and tips: https://www.youtube.com/watch?v=fa3sLTn0Wek&t=11s

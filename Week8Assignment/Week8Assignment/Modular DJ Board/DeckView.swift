@@ -9,17 +9,46 @@ import SwiftUI
 
 struct DeckView: View {
     @State private var audioManager = AudioManager()
+    @State private var selectedTrack: String?
 
     var body: some View {
-        RoundedRectangle(cornerRadius: 12)
-            .fill(.gray.opacity(0.9))
-            .frame(width: 180, height: 260)
-            .shadow(radius: 5)
-            .overlay(
-                Text("Deck")
-                    .foregroundColor(.white)
-                    .font(.headline)
-            )
+        VStack(spacing: 16) {
+            RoundedRectangle(cornerRadius: 12)
+                .fill(.gray.opacity(0.9))
+                .frame(width: 180, height: 160)
+                .overlay(
+                    VStack {
+                        Text("🎛 Deck")
+                            .font(.headline)
+                            .foregroundColor(.white)
+                        if let file = selectedTrack {
+                            Text("🎵 \(file)")
+                                .font(.caption)
+                                .foregroundColor(.white)
+                        }
+                        Text("BPM: \(Int(audioManager.beatDetector.currentBPM))")
+                            .font(.caption)
+                            .foregroundColor(.green)
+                    }
+                )
+
+            HStack {
+                Button("Play") { audioManager.play() }
+                Button("Stop") { audioManager.stop() }
+            }
+            .buttonStyle(.borderedProminent)
+
+            NavigationLink("Select Track") {
+                SelectTrackView(selectedFileName: $selectedTrack)
+            }
+
+            TempoSliderView(rate: $audioManager.playbackRate)
+        }
+        .onChange(of: selectedTrack) { _, newValue in
+            if let file = newValue {
+                audioManager.loadTrack(named: file)
+            }
+        }
     }
 }
 
