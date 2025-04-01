@@ -42,7 +42,7 @@ struct DeckView: View {
                 SelectTrackView(selectedFileName: $selectedTrack)
             }
 
-            TempoSliderView(rate: $audioManager.playbackRate)
+//            TempoSliderView(rate: $audioManager.playbackRate)
         }
         .onChange(of: selectedTrack) { _, newValue in
             if let file = newValue {

@@ -475,9 +475,7 @@
 		9FAE96F82D8B3AAD003B496F = {
 			isa = PBXGroup;
 			children = (
-				9FA70DC32D99EAD200E775A5 /* README.md */,
 				9FE4179C2D8CC3C800C1195C /* Week8Assignment */,
-				9F2BA60F2D9A001B00E69A1E /* Music */,
 				9FA70DB72D9746BD00E775A5 /* ddj_flx4_pioneer.usdz */,
 				9FAE97022D8B3AAD003B496F /* Products */,
 				9F2BA66C2D9A03C200E69A1E /* Frameworks */,
@@ -503,6 +501,7 @@
 		9FE4179C2D8CC3C800C1195C /* Week8Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				9FA70DC32D99EAD200E775A5 /* README.md */,
 				9F2BA5AC2D99FB7E00E69A1E /* Tempi Beat Detection */,
 				9FE417982D8CC3C800C1195C /* Preview Content */,
 				9FE417992D8CC3C800C1195C /* Assets.xcassets */,
@@ -513,6 +512,7 @@
 				9F2BA5A22D99F0DF00E69A1E /* Audio Handling */,
 				9F2BA6682D9A036200E69A1E /* Superpower */,
 				9F2BA6612D9A036200E69A1E /* BPMAnalyzer.swift */,
+				9F2BA60F2D9A001B00E69A1E /* Music */,
 			);
 			path = Week8Assignment;
 			sourceTree = "<group>";
