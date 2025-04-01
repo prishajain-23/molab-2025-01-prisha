@@ -7,101 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9F2BA59E2D99F0DB00E69A1E /* DeckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2BA59A2D99F0DB00E69A1E /* DeckView.swift */; };
-		9F2BA59F2D99F0DB00E69A1E /* ModularBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2BA59B2D99F0DB00E69A1E /* ModularBoardView.swift */; };
-		9F2BA5A02D99F0DB00E69A1E /* SelectTrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2BA59C2D99F0DB00E69A1E /* SelectTrackView.swift */; };
-		9F2BA5A32D99F0DF00E69A1E /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2BA5A12D99F0DF00E69A1E /* AudioManager.swift */; };
 		9F2BA5A72D99F0E200E69A1E /* 3DBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2BA5A42D99F0E200E69A1E /* 3DBoardView.swift */; };
 		9F2BA5A82D99F0E200E69A1E /* ModelViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2BA5A52D99F0E200E69A1E /* ModelViewer.swift */; };
-		9F2BA5AA2D99F6EC00E69A1E /* BeatDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2BA5A92D99F6EC00E69A1E /* BeatDetector.swift */; };
-		9F2BA5AE2D99FC0600E69A1E /* TempiPeakDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2BA5AD2D99FC0600E69A1E /* TempiPeakDetection.swift */; };
-		9F2BA5B02D99FC2200E69A1E /* TempiFFT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2BA5AF2D99FC2200E69A1E /* TempiFFT.swift */; };
-		9F2BA5B22D99FE0E00E69A1E /* TempiAudioInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2BA5B12D99FE0E00E69A1E /* TempiAudioInput.swift */; };
-		9F2BA5B42D99FE2C00E69A1E /* TempiBeatDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2BA5B32D99FE2C00E69A1E /* TempiBeatDetection.swift */; };
-		9F2BA6102D9A001B00E69A1E /* Energy (Acapella).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5B82D9A001B00E69A1E /* Energy (Acapella).mp3 */; };
-		9F2BA6112D9A001B00E69A1E /* Future Days.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA6022D9A001B00E69A1E /* Future Days.wav */; };
-		9F2BA6122D9A001B00E69A1E /* Dudi Beats - Take down the house.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5CE2D9A001B00E69A1E /* Dudi Beats - Take down the house.mp3 */; };
-		9F2BA6132D9A001B00E69A1E /* Lawrence James - Conversation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA6032D9A001B00E69A1E /* Lawrence James - Conversation.mp3 */; };
-		9F2BA6142D9A001B00E69A1E /* Lawrence James - That That That.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA6062D9A001B00E69A1E /* Lawrence James - That That That.mp3 */; };
-		9F2BA6152D9A001B00E69A1E /* Lawrence James - Worry Bout Them.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5E22D9A001B00E69A1E /* Lawrence James - Worry Bout Them.mp3 */; };
-		9F2BA6162D9A001B00E69A1E /* Conversation (Acapella).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5B72D9A001B00E69A1E /* Conversation (Acapella).mp3 */; };
-		9F2BA6172D9A001B00E69A1E /* Lawrence James - Move LikeThat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5DF2D9A001B00E69A1E /* Lawrence James - Move LikeThat.mp3 */; };
-		9F2BA6182D9A001B00E69A1E /* Livsey - Rhythm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5CC2D9A001B00E69A1E /* Livsey - Rhythm.mp3 */; };
-		9F2BA6192D9A001B00E69A1E /* Lawrence James - garage ting.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5D62D9A001B00E69A1E /* Lawrence James - garage ting.mp3 */; };
-		9F2BA61A2D9A001B00E69A1E /* Lawrence James - Hold You In My Arms.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA6042D9A001B00E69A1E /* Lawrence James - Hold You In My Arms.mp3 */; };
-		9F2BA61B2D9A001B00E69A1E /* DJ Prashant, Jireh - Tumbiton.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA6012D9A001B00E69A1E /* DJ Prashant, Jireh - Tumbiton.mp3 */; };
-		9F2BA61C2D9A001B00E69A1E /* Lawrence James - Atmosphere.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5D12D9A001B00E69A1E /* Lawrence James - Atmosphere.mp3 */; };
-		9F2BA61D2D9A001B00E69A1E /* MAFX - zap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA6082D9A001B00E69A1E /* MAFX - zap.mp3 */; };
-		9F2BA61E2D9A001B00E69A1E /* Livsey - Imagination.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5C32D9A001B00E69A1E /* Livsey - Imagination.mp3 */; };
-		9F2BA61F2D9A001B00E69A1E /* Gab Tritone - Blunted (Original Mix).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5EE2D9A001B00E69A1E /* Gab Tritone - Blunted (Original Mix).mp3 */; };
-		9F2BA6202D9A001B00E69A1E /* Lawrence James - Energy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5F32D9A001B00E69A1E /* Lawrence James - Energy.mp3 */; };
-		9F2BA6212D9A001B00E69A1E /* Win The Game ( Acapella ).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5BE2D9A001B00E69A1E /* Win The Game ( Acapella ).mp3 */; };
-		9F2BA6222D9A001B00E69A1E /* Dante Rives - Just Tech House.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5E92D9A001B00E69A1E /* Dante Rives - Just Tech House.wav */; };
-		9F2BA6232D9A001B00E69A1E /* Altus - The Silent Earth.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5D92D9A001B00E69A1E /* Altus - The Silent Earth.mp3 */; };
-		9F2BA6242D9A001B00E69A1E /* Livsey - Colt.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5C92D9A001B00E69A1E /* Livsey - Colt.wav */; };
-		9F2BA6252D9A001B00E69A1E /* Lawrence James - See It Through My Eyes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5D32D9A001B00E69A1E /* Lawrence James - See It Through My Eyes.mp3 */; };
-		9F2BA6262D9A001B00E69A1E /* Lawrence James - Troyboi Vibes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA6072D9A001B00E69A1E /* Lawrence James - Troyboi Vibes.mp3 */; };
-		9F2BA6272D9A001B00E69A1E /* Livsey - Tutorial.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5C62D9A001B00E69A1E /* Livsey - Tutorial.mp3 */; };
-		9F2BA6282D9A001B00E69A1E /* Body (Acapella).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5B62D9A001B00E69A1E /* Body (Acapella).mp3 */; };
-		9F2BA6292D9A001B00E69A1E /* Ed Da Head - Runner.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5CF2D9A001B00E69A1E /* Ed Da Head - Runner.mp3 */; };
-		9F2BA62A2D9A001B00E69A1E /* Lawrence James - Don't You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5F22D9A001B00E69A1E /* Lawrence James - Don't You.mp3 */; };
-		9F2BA62B2D9A001B00E69A1E /* Lawrence James - Stay With Me.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5D42D9A001B00E69A1E /* Lawrence James - Stay With Me.mp3 */; };
-		9F2BA62C2D9A001B00E69A1E /* Roberto Marín Muñoz - Hold On.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5F92D9A001B00E69A1E /* Roberto Marín Muñoz - Hold On.mp3 */; };
-		9F2BA62D2D9A001B00E69A1E /* Elke Meds - Wrap around.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5ED2D9A001B00E69A1E /* Elke Meds - Wrap around.wav */; };
-		9F2BA62E2D9A001B00E69A1E /* ALEXYUS - IN LOVE.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA60A2D9A001B00E69A1E /* ALEXYUS - IN LOVE.mp3 */; };
-		9F2BA62F2D9A001B00E69A1E /* Lawrence James - Win The Game.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5D72D9A001B00E69A1E /* Lawrence James - Win The Game.mp3 */; };
-		9F2BA6302D9A001B00E69A1E /* Lawrence James - What They Want.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5E12D9A001B00E69A1E /* Lawrence James - What They Want.mp3 */; };
-		9F2BA6312D9A001B00E69A1E /* Ed Hale - Not Like You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5D02D9A001B00E69A1E /* Ed Hale - Not Like You.mp3 */; };
-		9F2BA6322D9A001B00E69A1E /* Worry Bout Them (Acapella).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5BF2D9A001B00E69A1E /* Worry Bout Them (Acapella).mp3 */; };
-		9F2BA6332D9A001B00E69A1E /* See It Through My Eyes (Acapella).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5BB2D9A001B00E69A1E /* See It Through My Eyes (Acapella).mp3 */; };
-		9F2BA6342D9A001B00E69A1E /* Livsey - Conflict VIP.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5C12D9A001B00E69A1E /* Livsey - Conflict VIP.mp3 */; };
-		9F2BA6352D9A001B00E69A1E /* Lawrence James - Oh Lord!.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5F52D9A001B00E69A1E /* Lawrence James - Oh Lord!.mp3 */; };
-		9F2BA6362D9A001B00E69A1E /* Livsey - Homage.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5CB2D9A001B00E69A1E /* Livsey - Homage.mp3 */; };
-		9F2BA6372D9A001B00E69A1E /* Dante Rives - Sooth.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA6002D9A001B00E69A1E /* Dante Rives - Sooth.wav */; };
-		9F2BA6382D9A001B00E69A1E /* Zurra - CASH (Extended Mix) [HIGH DEFINITION].wav in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5FE2D9A001B00E69A1E /* Zurra - CASH (Extended Mix) [HIGH DEFINITION].wav */; };
-		9F2BA6392D9A001B00E69A1E /* Dante Rives - The Tribe.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5EA2D9A001B00E69A1E /* Dante Rives - The Tribe.wav */; };
-		9F2BA63A2D9A001B00E69A1E /* Stay With Me (Acapella).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5BC2D9A001B00E69A1E /* Stay With Me (Acapella).mp3 */; };
-		9F2BA63B2D9A001B00E69A1E /* Kai Shibata - Fakers (Extended Mix) [OUTBOUND SOUNDS].wav in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5EF2D9A001B00E69A1E /* Kai Shibata - Fakers (Extended Mix) [OUTBOUND SOUNDS].wav */; };
-		9F2BA63C2D9A001B00E69A1E /* Dante Rives - Clubz.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5E82D9A001B00E69A1E /* Dante Rives - Clubz.wav */; };
-		9F2BA63D2D9A001B00E69A1E /* Lawrence James - To The Market.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5F72D9A001B00E69A1E /* Lawrence James - To The Market.mp3 */; };
-		9F2BA63E2D9A001B00E69A1E /* Lawrence James - Soemthing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5F62D9A001B00E69A1E /* Lawrence James - Soemthing.mp3 */; };
-		9F2BA63F2D9A001B00E69A1E /* Lawrence James - Midnight Dub1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5DE2D9A001B00E69A1E /* Lawrence James - Midnight Dub1.mp3 */; };
-		9F2BA6402D9A001B00E69A1E /* Lawrence James - Body.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5DB2D9A001B00E69A1E /* Lawrence James - Body.mp3 */; };
-		9F2BA6412D9A001B00E69A1E /* Dots Per Inch - Right Now ft Malachi K.P (Extended Mix) [HIGH DEFINITION].wav in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5EB2D9A001B00E69A1E /* Dots Per Inch - Right Now ft Malachi K.P (Extended Mix) [HIGH DEFINITION].wav */; };
-		9F2BA6422D9A001B00E69A1E /* That That That (Acapella).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5BD2D9A001B00E69A1E /* That That That (Acapella).mp3 */; };
-		9F2BA6432D9A001B00E69A1E /* Livsey - Switch Down.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5C52D9A001B00E69A1E /* Livsey - Switch Down.mp3 */; };
-		9F2BA6442D9A001B00E69A1E /* Verberate - Let the Rhythm Take Control (Extended Version).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5FC2D9A001B00E69A1E /* Verberate - Let the Rhythm Take Control (Extended Version).mp3 */; };
-		9F2BA6452D9A001B00E69A1E /* Atmosphere (Acapella).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5B52D9A001B00E69A1E /* Atmosphere (Acapella).mp3 */; };
-		9F2BA6462D9A001B00E69A1E /* Lawrence James - Lose Control Like.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5DD2D9A001B00E69A1E /* Lawrence James - Lose Control Like.mp3 */; };
-		9F2BA6472D9A001B00E69A1E /* Livsey - My Lyf.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5C42D9A001B00E69A1E /* Livsey - My Lyf.mp3 */; };
-		9F2BA6482D9A001B00E69A1E /* Lawrence James - Smoke Up.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5E02D9A001B00E69A1E /* Lawrence James - Smoke Up.mp3 */; };
-		9F2BA6492D9A001B00E69A1E /* Move LikeThat (Acapella).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5BA2D9A001B00E69A1E /* Move LikeThat (Acapella).mp3 */; };
-		9F2BA64A2D9A001B00E69A1E /* DJ DEE ONE - AKUGBE ft Sammi Osas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5DA2D9A001B00E69A1E /* DJ DEE ONE - AKUGBE ft Sammi Osas.mp3 */; };
-		9F2BA64B2D9A001B00E69A1E /* Lawrence James - I'm Fluming.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA6052D9A001B00E69A1E /* Lawrence James - I'm Fluming.mp3 */; };
-		9F2BA64C2D9A001B00E69A1E /* Livsey - Past & Present.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA60B2D9A001B00E69A1E /* Livsey - Past & Present.mp3 */; };
-		9F2BA64D2D9A001B00E69A1E /* Lawrence James - Know U.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5C82D9A001B00E69A1E /* Lawrence James - Know U.mp3 */; };
-		9F2BA64E2D9A001B00E69A1E /* Terry Too Much - FOREVER LOVE.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5E32D9A001B00E69A1E /* Terry Too Much - FOREVER LOVE.mp3 */; };
-		9F2BA64F2D9A001B00E69A1E /* Lawrence James - Promise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5D22D9A001B00E69A1E /* Lawrence James - Promise.mp3 */; };
-		9F2BA6502D9A001B00E69A1E /* Kai Shibata - Undulating (Extended Mix).wav in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5F02D9A001B00E69A1E /* Kai Shibata - Undulating (Extended Mix).wav */; };
-		9F2BA6512D9A001B00E69A1E /* In My Arms ( Acapella ).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5B92D9A001B00E69A1E /* In My Arms ( Acapella ).mp3 */; };
-		9F2BA6522D9A001B00E69A1E /* Livsey & Hood Groove - Solitude (Techno Mix).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA60D2D9A001B00E69A1E /* Livsey & Hood Groove - Solitude (Techno Mix).mp3 */; };
-		9F2BA6532D9A001B00E69A1E /* Livsey - Greenspud.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5CA2D9A001B00E69A1E /* Livsey - Greenspud.mp3 */; };
-		9F2BA6542D9A001B00E69A1E /* Roberto Marín Muñoz - I Feel Fire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5FA2D9A001B00E69A1E /* Roberto Marín Muñoz - I Feel Fire.mp3 */; };
-		9F2BA6552D9A001B00E69A1E /* Elke Meds - Hi.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5EC2D9A001B00E69A1E /* Elke Meds - Hi.wav */; };
-		9F2BA6562D9A001B00E69A1E /* Lawrence James - DANCEFLAW.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5F12D9A001B00E69A1E /* Lawrence James - DANCEFLAW.mp3 */; };
-		9F2BA6572D9A001B00E69A1E /* Bear Like - For Your Love (Extended Mix).wav in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5E62D9A001B00E69A1E /* Bear Like - For Your Love (Extended Mix).wav */; };
-		9F2BA6582D9A001B00E69A1E /* Alexyus - Bad Ass .m4a in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5E52D9A001B00E69A1E /* Alexyus - Bad Ass .m4a */; };
-		9F2BA6592D9A001B00E69A1E /* Lawrence James - Good Time.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5F42D9A001B00E69A1E /* Lawrence James - Good Time.mp3 */; };
-		9F2BA65A2D9A001B00E69A1E /* Roberto Marín Muñoz - Untouchable (Extended Version).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5FB2D9A001B00E69A1E /* Roberto Marín Muñoz - Untouchable (Extended Version).mp3 */; };
-		9F2BA65B2D9A001B00E69A1E /* Livsey - Ease The Pain VIP.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5C22D9A001B00E69A1E /* Livsey - Ease The Pain VIP.mp3 */; };
-		9F2BA65C2D9A001B00E69A1E /* Lawrence James - Feeling Dub.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5DC2D9A001B00E69A1E /* Lawrence James - Feeling Dub.mp3 */; };
-		9F2BA65D2D9A001B00E69A1E /* Blank Sense - Cover It Up (Extended Mix) [HIGH DEFINITION].wav in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5E72D9A001B00E69A1E /* Blank Sense - Cover It Up (Extended Mix) [HIGH DEFINITION].wav */; };
-		9F2BA65E2D9A001B00E69A1E /* Livsey - I Wonder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5F82D9A001B00E69A1E /* Livsey - I Wonder.mp3 */; };
-		9F2BA65F2D9A001B00E69A1E /* Zesto - Way You Move (Extended Mix) [HIGH DEFINITION].wav in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA5FD2D9A001B00E69A1E /* Zesto - Way You Move (Extended Mix) [HIGH DEFINITION].wav */; };
-		9F2BA6602D9A001B00E69A1E /* Livsey - Persist.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BA60C2D9A001B00E69A1E /* Livsey - Persist.mp3 */; };
-		9F2BA6692D9A036200E69A1E /* Superpowered.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9F2BA6642D9A036200E69A1E /* Superpowered.mm */; };
-		9F2BA66A2D9A036200E69A1E /* BPMAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2BA6612D9A036200E69A1E /* BPMAnalyzer.swift */; };
-		9F2BA66B2D9A036200E69A1E /* libSuperpoweredAudioIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2BA6632D9A036200E69A1E /* libSuperpoweredAudioIOS.a */; };
 		9F2BA66E2D9A03C200E69A1E /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2BA66D2D9A03C200E69A1E /* CoreMedia.framework */; };
 		9F2BA6702D9A03D600E69A1E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2BA66F2D9A03D600E69A1E /* AudioToolbox.framework */; };
 		9F2BA6722D9A03DE00E69A1E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2BA6712D9A03DE00E69A1E /* AVFoundation.framework */; };
@@ -119,105 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9F2BA59A2D99F0DB00E69A1E /* DeckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckView.swift; sourceTree = "<group>"; };
-		9F2BA59B2D99F0DB00E69A1E /* ModularBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularBoardView.swift; sourceTree = "<group>"; };
-		9F2BA59C2D99F0DB00E69A1E /* SelectTrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTrackView.swift; sourceTree = "<group>"; };
-		9F2BA5A12D99F0DF00E69A1E /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
 		9F2BA5A42D99F0E200E69A1E /* 3DBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3DBoardView.swift; sourceTree = "<group>"; };
 		9F2BA5A52D99F0E200E69A1E /* ModelViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelViewer.swift; sourceTree = "<group>"; };
-		9F2BA5A92D99F6EC00E69A1E /* BeatDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatDetector.swift; sourceTree = "<group>"; };
-		9F2BA5AD2D99FC0600E69A1E /* TempiPeakDetection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempiPeakDetection.swift; sourceTree = "<group>"; };
-		9F2BA5AF2D99FC2200E69A1E /* TempiFFT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempiFFT.swift; sourceTree = "<group>"; };
-		9F2BA5B12D99FE0E00E69A1E /* TempiAudioInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempiAudioInput.swift; sourceTree = "<group>"; };
-		9F2BA5B32D99FE2C00E69A1E /* TempiBeatDetection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempiBeatDetection.swift; sourceTree = "<group>"; };
-		9F2BA5B52D9A001B00E69A1E /* Atmosphere (Acapella).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Atmosphere (Acapella).mp3"; sourceTree = "<group>"; };
-		9F2BA5B62D9A001B00E69A1E /* Body (Acapella).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Body (Acapella).mp3"; sourceTree = "<group>"; };
-		9F2BA5B72D9A001B00E69A1E /* Conversation (Acapella).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Conversation (Acapella).mp3"; sourceTree = "<group>"; };
-		9F2BA5B82D9A001B00E69A1E /* Energy (Acapella).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Energy (Acapella).mp3"; sourceTree = "<group>"; };
-		9F2BA5B92D9A001B00E69A1E /* In My Arms ( Acapella ).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "In My Arms ( Acapella ).mp3"; sourceTree = "<group>"; };
-		9F2BA5BA2D9A001B00E69A1E /* Move LikeThat (Acapella).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Move LikeThat (Acapella).mp3"; sourceTree = "<group>"; };
-		9F2BA5BB2D9A001B00E69A1E /* See It Through My Eyes (Acapella).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "See It Through My Eyes (Acapella).mp3"; sourceTree = "<group>"; };
-		9F2BA5BC2D9A001B00E69A1E /* Stay With Me (Acapella).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Stay With Me (Acapella).mp3"; sourceTree = "<group>"; };
-		9F2BA5BD2D9A001B00E69A1E /* That That That (Acapella).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "That That That (Acapella).mp3"; sourceTree = "<group>"; };
-		9F2BA5BE2D9A001B00E69A1E /* Win The Game ( Acapella ).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Win The Game ( Acapella ).mp3"; sourceTree = "<group>"; };
-		9F2BA5BF2D9A001B00E69A1E /* Worry Bout Them (Acapella).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Worry Bout Them (Acapella).mp3"; sourceTree = "<group>"; };
-		9F2BA5C12D9A001B00E69A1E /* Livsey - Conflict VIP.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Livsey - Conflict VIP.mp3"; sourceTree = "<group>"; };
-		9F2BA5C22D9A001B00E69A1E /* Livsey - Ease The Pain VIP.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Livsey - Ease The Pain VIP.mp3"; sourceTree = "<group>"; };
-		9F2BA5C32D9A001B00E69A1E /* Livsey - Imagination.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Livsey - Imagination.mp3"; sourceTree = "<group>"; };
-		9F2BA5C42D9A001B00E69A1E /* Livsey - My Lyf.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Livsey - My Lyf.mp3"; sourceTree = "<group>"; };
-		9F2BA5C52D9A001B00E69A1E /* Livsey - Switch Down.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Livsey - Switch Down.mp3"; sourceTree = "<group>"; };
-		9F2BA5C62D9A001B00E69A1E /* Livsey - Tutorial.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Livsey - Tutorial.mp3"; sourceTree = "<group>"; };
-		9F2BA5C82D9A001B00E69A1E /* Lawrence James - Know U.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lawrence James - Know U.mp3"; sourceTree = "<group>"; };
-		9F2BA5C92D9A001B00E69A1E /* Livsey - Colt.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Livsey - Colt.wav"; sourceTree = "<group>"; };
-		9F2BA5CA2D9A001B00E69A1E /* Livsey - Greenspud.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Livsey - Greenspud.mp3"; sourceTree = "<group>"; };
-		9F2BA5CB2D9A001B00E69A1E /* Livsey - Homage.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Livsey - Homage.mp3"; sourceTree = "<group>"; };
-		9F2BA5CC2D9A001B00E69A1E /* Livsey - Rhythm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Livsey - Rhythm.mp3"; sourceTree = "<group>"; };
-		9F2BA5CE2D9A001B00E69A1E /* Dudi Beats - Take down the house.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dudi Beats - Take down the house.mp3"; sourceTree = "<group>"; };
-		9F2BA5CF2D9A001B00E69A1E /* Ed Da Head - Runner.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ed Da Head - Runner.mp3"; sourceTree = "<group>"; };
-		9F2BA5D02D9A001B00E69A1E /* Ed Hale - Not Like You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ed Hale - Not Like You.mp3"; sourceTree = "<group>"; };
-		9F2BA5D12D9A001B00E69A1E /* Lawrence James - Atmosphere.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lawrence James - Atmosphere.mp3"; sourceTree = "<group>"; };
-		9F2BA5D22D9A001B00E69A1E /* Lawrence James - Promise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lawrence James - Promise.mp3"; sourceTree = "<group>"; };
-		9F2BA5D32D9A001B00E69A1E /* Lawrence James - See It Through My Eyes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lawrence James - See It Through My Eyes.mp3"; sourceTree = "<group>"; };
-		9F2BA5D42D9A001B00E69A1E /* Lawrence James - Stay With Me.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lawrence James - Stay With Me.mp3"; sourceTree = "<group>"; };
-		9F2BA5D62D9A001B00E69A1E /* Lawrence James - garage ting.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lawrence James - garage ting.mp3"; sourceTree = "<group>"; };
-		9F2BA5D72D9A001B00E69A1E /* Lawrence James - Win The Game.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lawrence James - Win The Game.mp3"; sourceTree = "<group>"; };
-		9F2BA5D92D9A001B00E69A1E /* Altus - The Silent Earth.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Altus - The Silent Earth.mp3"; sourceTree = "<group>"; };
-		9F2BA5DA2D9A001B00E69A1E /* DJ DEE ONE - AKUGBE ft Sammi Osas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "DJ DEE ONE - AKUGBE ft Sammi Osas.mp3"; sourceTree = "<group>"; };
-		9F2BA5DB2D9A001B00E69A1E /* Lawrence James - Body.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lawrence James - Body.mp3"; sourceTree = "<group>"; };
-		9F2BA5DC2D9A001B00E69A1E /* Lawrence James - Feeling Dub.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lawrence James - Feeling Dub.mp3"; sourceTree = "<group>"; };
-		9F2BA5DD2D9A001B00E69A1E /* Lawrence James - Lose Control Like.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lawrence James - Lose Control Like.mp3"; sourceTree = "<group>"; };
-		9F2BA5DE2D9A001B00E69A1E /* Lawrence James - Midnight Dub1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lawrence James - Midnight Dub1.mp3"; sourceTree = "<group>"; };
-		9F2BA5DF2D9A001B00E69A1E /* Lawrence James - Move LikeThat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lawrence James - Move LikeThat.mp3"; sourceTree = "<group>"; };
-		9F2BA5E02D9A001B00E69A1E /* Lawrence James - Smoke Up.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lawrence James - Smoke Up.mp3"; sourceTree = "<group>"; };
-		9F2BA5E12D9A001B00E69A1E /* Lawrence James - What They Want.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lawrence James - What They Want.mp3"; sourceTree = "<group>"; };
-		9F2BA5E22D9A001B00E69A1E /* Lawrence James - Worry Bout Them.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lawrence James - Worry Bout Them.mp3"; sourceTree = "<group>"; };
-		9F2BA5E32D9A001B00E69A1E /* Terry Too Much - FOREVER LOVE.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Terry Too Much - FOREVER LOVE.mp3"; sourceTree = "<group>"; };
-		9F2BA5E52D9A001B00E69A1E /* Alexyus - Bad Ass .m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alexyus - Bad Ass .m4a"; sourceTree = "<group>"; };
-		9F2BA5E62D9A001B00E69A1E /* Bear Like - For Your Love (Extended Mix).wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bear Like - For Your Love (Extended Mix).wav"; sourceTree = "<group>"; };
-		9F2BA5E72D9A001B00E69A1E /* Blank Sense - Cover It Up (Extended Mix) [HIGH DEFINITION].wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Blank Sense - Cover It Up (Extended Mix) [HIGH DEFINITION].wav"; sourceTree = "<group>"; };
-		9F2BA5E82D9A001B00E69A1E /* Dante Rives - Clubz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Dante Rives - Clubz.wav"; sourceTree = "<group>"; };
-		9F2BA5E92D9A001B00E69A1E /* Dante Rives - Just Tech House.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Dante Rives - Just Tech House.wav"; sourceTree = "<group>"; };
-		9F2BA5EA2D9A001B00E69A1E /* Dante Rives - The Tribe.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Dante Rives - The Tribe.wav"; sourceTree = "<group>"; };
-		9F2BA5EB2D9A001B00E69A1E /* Dots Per Inch - Right Now ft Malachi K.P (Extended Mix) [HIGH DEFINITION].wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Dots Per Inch - Right Now ft Malachi K.P (Extended Mix) [HIGH DEFINITION].wav"; sourceTree = "<group>"; };
-		9F2BA5EC2D9A001B00E69A1E /* Elke Meds - Hi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Elke Meds - Hi.wav"; sourceTree = "<group>"; };
-		9F2BA5ED2D9A001B00E69A1E /* Elke Meds - Wrap around.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Elke Meds - Wrap around.wav"; sourceTree = "<group>"; };
-		9F2BA5EE2D9A001B00E69A1E /* Gab Tritone - Blunted (Original Mix).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Gab Tritone - Blunted (Original Mix).mp3"; sourceTree = "<group>"; };
-		9F2BA5EF2D9A001B00E69A1E /* Kai Shibata - Fakers (Extended Mix) [OUTBOUND SOUNDS].wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Kai Shibata - Fakers (Extended Mix) [OUTBOUND SOUNDS].wav"; sourceTree = "<group>"; };
-		9F2BA5F02D9A001B00E69A1E /* Kai Shibata - Undulating (Extended Mix).wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Kai Shibata - Undulating (Extended Mix).wav"; sourceTree = "<group>"; };
-		9F2BA5F12D9A001B00E69A1E /* Lawrence James - DANCEFLAW.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lawrence James - DANCEFLAW.mp3"; sourceTree = "<group>"; };
-		9F2BA5F22D9A001B00E69A1E /* Lawrence James - Don't You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lawrence James - Don't You.mp3"; sourceTree = "<group>"; };
-		9F2BA5F32D9A001B00E69A1E /* Lawrence James - Energy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lawrence James - Energy.mp3"; sourceTree = "<group>"; };
-		9F2BA5F42D9A001B00E69A1E /* Lawrence James - Good Time.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lawrence James - Good Time.mp3"; sourceTree = "<group>"; };
-		9F2BA5F52D9A001B00E69A1E /* Lawrence James - Oh Lord!.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lawrence James - Oh Lord!.mp3"; sourceTree = "<group>"; };
-		9F2BA5F62D9A001B00E69A1E /* Lawrence James - Soemthing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lawrence James - Soemthing.mp3"; sourceTree = "<group>"; };
-		9F2BA5F72D9A001B00E69A1E /* Lawrence James - To The Market.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lawrence James - To The Market.mp3"; sourceTree = "<group>"; };
-		9F2BA5F82D9A001B00E69A1E /* Livsey - I Wonder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Livsey - I Wonder.mp3"; sourceTree = "<group>"; };
-		9F2BA5F92D9A001B00E69A1E /* Roberto Marín Muñoz - Hold On.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Roberto Marín Muñoz - Hold On.mp3"; sourceTree = "<group>"; };
-		9F2BA5FA2D9A001B00E69A1E /* Roberto Marín Muñoz - I Feel Fire.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Roberto Marín Muñoz - I Feel Fire.mp3"; sourceTree = "<group>"; };
-		9F2BA5FB2D9A001B00E69A1E /* Roberto Marín Muñoz - Untouchable (Extended Version).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Roberto Marín Muñoz - Untouchable (Extended Version).mp3"; sourceTree = "<group>"; };
-		9F2BA5FC2D9A001B00E69A1E /* Verberate - Let the Rhythm Take Control (Extended Version).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Verberate - Let the Rhythm Take Control (Extended Version).mp3"; sourceTree = "<group>"; };
-		9F2BA5FD2D9A001B00E69A1E /* Zesto - Way You Move (Extended Mix) [HIGH DEFINITION].wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Zesto - Way You Move (Extended Mix) [HIGH DEFINITION].wav"; sourceTree = "<group>"; };
-		9F2BA5FE2D9A001B00E69A1E /* Zurra - CASH (Extended Mix) [HIGH DEFINITION].wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Zurra - CASH (Extended Mix) [HIGH DEFINITION].wav"; sourceTree = "<group>"; };
-		9F2BA6002D9A001B00E69A1E /* Dante Rives - Sooth.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Dante Rives - Sooth.wav"; sourceTree = "<group>"; };
-		9F2BA6012D9A001B00E69A1E /* DJ Prashant, Jireh - Tumbiton.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "DJ Prashant, Jireh - Tumbiton.mp3"; sourceTree = "<group>"; };
-		9F2BA6022D9A001B00E69A1E /* Future Days.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Future Days.wav"; sourceTree = "<group>"; };
-		9F2BA6032D9A001B00E69A1E /* Lawrence James - Conversation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lawrence James - Conversation.mp3"; sourceTree = "<group>"; };
-		9F2BA6042D9A001B00E69A1E /* Lawrence James - Hold You In My Arms.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lawrence James - Hold You In My Arms.mp3"; sourceTree = "<group>"; };
-		9F2BA6052D9A001B00E69A1E /* Lawrence James - I'm Fluming.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lawrence James - I'm Fluming.mp3"; sourceTree = "<group>"; };
-		9F2BA6062D9A001B00E69A1E /* Lawrence James - That That That.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lawrence James - That That That.mp3"; sourceTree = "<group>"; };
-		9F2BA6072D9A001B00E69A1E /* Lawrence James - Troyboi Vibes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lawrence James - Troyboi Vibes.mp3"; sourceTree = "<group>"; };
-		9F2BA6082D9A001B00E69A1E /* MAFX - zap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "MAFX - zap.mp3"; sourceTree = "<group>"; };
-		9F2BA60A2D9A001B00E69A1E /* ALEXYUS - IN LOVE.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ALEXYUS - IN LOVE.mp3"; sourceTree = "<group>"; };
-		9F2BA60B2D9A001B00E69A1E /* Livsey - Past & Present.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Livsey - Past & Present.mp3"; sourceTree = "<group>"; };
-		9F2BA60C2D9A001B00E69A1E /* Livsey - Persist.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Livsey - Persist.mp3"; sourceTree = "<group>"; };
-		9F2BA60D2D9A001B00E69A1E /* Livsey & Hood Groove - Solitude (Techno Mix).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Livsey & Hood Groove - Solitude (Techno Mix).mp3"; sourceTree = "<group>"; };
-		9F2BA6612D9A036200E69A1E /* BPMAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BPMAnalyzer.swift; sourceTree = "<group>"; };
-		9F2BA6622D9A036200E69A1E /* BPMAnalyzer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BPMAnalyzer-Bridging-Header.h"; sourceTree = "<group>"; };
-		9F2BA6632D9A036200E69A1E /* libSuperpoweredAudioIOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSuperpoweredAudioIOS.a; sourceTree = "<group>"; };
-		9F2BA6642D9A036200E69A1E /* Superpowered.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Superpowered.mm; sourceTree = "<group>"; };
-		9F2BA6652D9A036200E69A1E /* SuperpoweredAnalyzer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperpoweredAnalyzer.h; sourceTree = "<group>"; };
-		9F2BA6662D9A036200E69A1E /* SuperpoweredDecoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperpoweredDecoder.h; sourceTree = "<group>"; };
-		9F2BA6672D9A036200E69A1E /* SuperpoweredSimple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperpoweredSimple.h; sourceTree = "<group>"; };
 		9F2BA66D2D9A03C200E69A1E /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		9F2BA66F2D9A03D600E69A1E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		9F2BA6712D9A03DE00E69A1E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -241,7 +51,6 @@
 				9FAE97142D8B3B08003B496F /* AudioKit in Frameworks */,
 				9FA70DAD2D8DDDC100E775A5 /* DunneAudioKit in Frameworks */,
 				9FA70DB22D8DE12100E775A5 /* Keyboard in Frameworks */,
-				9F2BA66B2D9A036200E69A1E /* libSuperpoweredAudioIOS.a in Frameworks */,
 				9FA70DAA2D8DDDA100E775A5 /* AudioKitUI in Frameworks */,
 				9FA70DA72D8DDD8E00E775A5 /* AudioKitEX in Frameworks */,
 			);
@@ -250,25 +59,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9F2BA59D2D99F0DB00E69A1E /* Modular DJ Board */ = {
-			isa = PBXGroup;
-			children = (
-				9F2BA59B2D99F0DB00E69A1E /* ModularBoardView.swift */,
-				9F2BA5A92D99F6EC00E69A1E /* BeatDetector.swift */,
-				9F2BA59A2D99F0DB00E69A1E /* DeckView.swift */,
-				9F2BA59C2D99F0DB00E69A1E /* SelectTrackView.swift */,
-			);
-			path = "Modular DJ Board";
-			sourceTree = "<group>";
-		};
-		9F2BA5A22D99F0DF00E69A1E /* Audio Handling */ = {
-			isa = PBXGroup;
-			children = (
-				9F2BA5A12D99F0DF00E69A1E /* AudioManager.swift */,
-			);
-			path = "Audio Handling";
-			sourceTree = "<group>";
-		};
 		9F2BA5A62D99F0E200E69A1E /* 3D DJ Board */ = {
 			isa = PBXGroup;
 			children = (
@@ -276,190 +66,6 @@
 				9F2BA5A52D99F0E200E69A1E /* ModelViewer.swift */,
 			);
 			path = "3D DJ Board";
-			sourceTree = "<group>";
-		};
-		9F2BA5AC2D99FB7E00E69A1E /* Tempi Beat Detection */ = {
-			isa = PBXGroup;
-			children = (
-				9F2BA5AD2D99FC0600E69A1E /* TempiPeakDetection.swift */,
-				9F2BA5AF2D99FC2200E69A1E /* TempiFFT.swift */,
-				9F2BA5B12D99FE0E00E69A1E /* TempiAudioInput.swift */,
-				9F2BA5B32D99FE2C00E69A1E /* TempiBeatDetection.swift */,
-			);
-			path = "Tempi Beat Detection";
-			sourceTree = "<group>";
-		};
-		9F2BA5C02D9A001B00E69A1E /* Acapellas */ = {
-			isa = PBXGroup;
-			children = (
-				9F2BA5B52D9A001B00E69A1E /* Atmosphere (Acapella).mp3 */,
-				9F2BA5B62D9A001B00E69A1E /* Body (Acapella).mp3 */,
-				9F2BA5B72D9A001B00E69A1E /* Conversation (Acapella).mp3 */,
-				9F2BA5B82D9A001B00E69A1E /* Energy (Acapella).mp3 */,
-				9F2BA5B92D9A001B00E69A1E /* In My Arms ( Acapella ).mp3 */,
-				9F2BA5BA2D9A001B00E69A1E /* Move LikeThat (Acapella).mp3 */,
-				9F2BA5BB2D9A001B00E69A1E /* See It Through My Eyes (Acapella).mp3 */,
-				9F2BA5BC2D9A001B00E69A1E /* Stay With Me (Acapella).mp3 */,
-				9F2BA5BD2D9A001B00E69A1E /* That That That (Acapella).mp3 */,
-				9F2BA5BE2D9A001B00E69A1E /* Win The Game ( Acapella ).mp3 */,
-				9F2BA5BF2D9A001B00E69A1E /* Worry Bout Them (Acapella).mp3 */,
-			);
-			path = Acapellas;
-			sourceTree = "<group>";
-		};
-		9F2BA5C72D9A001B00E69A1E /* Bassline & Bass House */ = {
-			isa = PBXGroup;
-			children = (
-				9F2BA5C12D9A001B00E69A1E /* Livsey - Conflict VIP.mp3 */,
-				9F2BA5C22D9A001B00E69A1E /* Livsey - Ease The Pain VIP.mp3 */,
-				9F2BA5C32D9A001B00E69A1E /* Livsey - Imagination.mp3 */,
-				9F2BA5C42D9A001B00E69A1E /* Livsey - My Lyf.mp3 */,
-				9F2BA5C52D9A001B00E69A1E /* Livsey - Switch Down.mp3 */,
-				9F2BA5C62D9A001B00E69A1E /* Livsey - Tutorial.mp3 */,
-			);
-			path = "Bassline & Bass House";
-			sourceTree = "<group>";
-		};
-		9F2BA5CD2D9A001B00E69A1E /* D&B */ = {
-			isa = PBXGroup;
-			children = (
-				9F2BA5C82D9A001B00E69A1E /* Lawrence James - Know U.mp3 */,
-				9F2BA5C92D9A001B00E69A1E /* Livsey - Colt.wav */,
-				9F2BA5CA2D9A001B00E69A1E /* Livsey - Greenspud.mp3 */,
-				9F2BA5CB2D9A001B00E69A1E /* Livsey - Homage.mp3 */,
-				9F2BA5CC2D9A001B00E69A1E /* Livsey - Rhythm.mp3 */,
-			);
-			path = "D&B";
-			sourceTree = "<group>";
-		};
-		9F2BA5D52D9A001B00E69A1E /* EDM & Dance */ = {
-			isa = PBXGroup;
-			children = (
-				9F2BA5CE2D9A001B00E69A1E /* Dudi Beats - Take down the house.mp3 */,
-				9F2BA5CF2D9A001B00E69A1E /* Ed Da Head - Runner.mp3 */,
-				9F2BA5D02D9A001B00E69A1E /* Ed Hale - Not Like You.mp3 */,
-				9F2BA5D12D9A001B00E69A1E /* Lawrence James - Atmosphere.mp3 */,
-				9F2BA5D22D9A001B00E69A1E /* Lawrence James - Promise.mp3 */,
-				9F2BA5D32D9A001B00E69A1E /* Lawrence James - See It Through My Eyes.mp3 */,
-				9F2BA5D42D9A001B00E69A1E /* Lawrence James - Stay With Me.mp3 */,
-			);
-			path = "EDM & Dance";
-			sourceTree = "<group>";
-		};
-		9F2BA5D82D9A001B00E69A1E /* Garage Vibes */ = {
-			isa = PBXGroup;
-			children = (
-				9F2BA5D62D9A001B00E69A1E /* Lawrence James - garage ting.mp3 */,
-				9F2BA5D72D9A001B00E69A1E /* Lawrence James - Win The Game.mp3 */,
-			);
-			path = "Garage Vibes";
-			sourceTree = "<group>";
-		};
-		9F2BA5E42D9A001B00E69A1E /* Hip Hop, Trap, Afrobeats */ = {
-			isa = PBXGroup;
-			children = (
-				9F2BA5D92D9A001B00E69A1E /* Altus - The Silent Earth.mp3 */,
-				9F2BA5DA2D9A001B00E69A1E /* DJ DEE ONE - AKUGBE ft Sammi Osas.mp3 */,
-				9F2BA5DB2D9A001B00E69A1E /* Lawrence James - Body.mp3 */,
-				9F2BA5DC2D9A001B00E69A1E /* Lawrence James - Feeling Dub.mp3 */,
-				9F2BA5DD2D9A001B00E69A1E /* Lawrence James - Lose Control Like.mp3 */,
-				9F2BA5DE2D9A001B00E69A1E /* Lawrence James - Midnight Dub1.mp3 */,
-				9F2BA5DF2D9A001B00E69A1E /* Lawrence James - Move LikeThat.mp3 */,
-				9F2BA5E02D9A001B00E69A1E /* Lawrence James - Smoke Up.mp3 */,
-				9F2BA5E12D9A001B00E69A1E /* Lawrence James - What They Want.mp3 */,
-				9F2BA5E22D9A001B00E69A1E /* Lawrence James - Worry Bout Them.mp3 */,
-				9F2BA5E32D9A001B00E69A1E /* Terry Too Much - FOREVER LOVE.mp3 */,
-			);
-			path = "Hip Hop, Trap, Afrobeats";
-			sourceTree = "<group>";
-		};
-		9F2BA5FF2D9A001B00E69A1E /* House */ = {
-			isa = PBXGroup;
-			children = (
-				9F2BA5E52D9A001B00E69A1E /* Alexyus - Bad Ass .m4a */,
-				9F2BA5E62D9A001B00E69A1E /* Bear Like - For Your Love (Extended Mix).wav */,
-				9F2BA5E72D9A001B00E69A1E /* Blank Sense - Cover It Up (Extended Mix) [HIGH DEFINITION].wav */,
-				9F2BA5E82D9A001B00E69A1E /* Dante Rives - Clubz.wav */,
-				9F2BA5E92D9A001B00E69A1E /* Dante Rives - Just Tech House.wav */,
-				9F2BA5EA2D9A001B00E69A1E /* Dante Rives - The Tribe.wav */,
-				9F2BA5EB2D9A001B00E69A1E /* Dots Per Inch - Right Now ft Malachi K.P (Extended Mix) [HIGH DEFINITION].wav */,
-				9F2BA5EC2D9A001B00E69A1E /* Elke Meds - Hi.wav */,
-				9F2BA5ED2D9A001B00E69A1E /* Elke Meds - Wrap around.wav */,
-				9F2BA5EE2D9A001B00E69A1E /* Gab Tritone - Blunted (Original Mix).mp3 */,
-				9F2BA5EF2D9A001B00E69A1E /* Kai Shibata - Fakers (Extended Mix) [OUTBOUND SOUNDS].wav */,
-				9F2BA5F02D9A001B00E69A1E /* Kai Shibata - Undulating (Extended Mix).wav */,
-				9F2BA5F12D9A001B00E69A1E /* Lawrence James - DANCEFLAW.mp3 */,
-				9F2BA5F22D9A001B00E69A1E /* Lawrence James - Don't You.mp3 */,
-				9F2BA5F32D9A001B00E69A1E /* Lawrence James - Energy.mp3 */,
-				9F2BA5F42D9A001B00E69A1E /* Lawrence James - Good Time.mp3 */,
-				9F2BA5F52D9A001B00E69A1E /* Lawrence James - Oh Lord!.mp3 */,
-				9F2BA5F62D9A001B00E69A1E /* Lawrence James - Soemthing.mp3 */,
-				9F2BA5F72D9A001B00E69A1E /* Lawrence James - To The Market.mp3 */,
-				9F2BA5F82D9A001B00E69A1E /* Livsey - I Wonder.mp3 */,
-				9F2BA5F92D9A001B00E69A1E /* Roberto Marín Muñoz - Hold On.mp3 */,
-				9F2BA5FA2D9A001B00E69A1E /* Roberto Marín Muñoz - I Feel Fire.mp3 */,
-				9F2BA5FB2D9A001B00E69A1E /* Roberto Marín Muñoz - Untouchable (Extended Version).mp3 */,
-				9F2BA5FC2D9A001B00E69A1E /* Verberate - Let the Rhythm Take Control (Extended Version).mp3 */,
-				9F2BA5FD2D9A001B00E69A1E /* Zesto - Way You Move (Extended Mix) [HIGH DEFINITION].wav */,
-				9F2BA5FE2D9A001B00E69A1E /* Zurra - CASH (Extended Mix) [HIGH DEFINITION].wav */,
-			);
-			path = House;
-			sourceTree = "<group>";
-		};
-		9F2BA6092D9A001B00E69A1E /* Pop & Mainstream */ = {
-			isa = PBXGroup;
-			children = (
-				9F2BA6002D9A001B00E69A1E /* Dante Rives - Sooth.wav */,
-				9F2BA6012D9A001B00E69A1E /* DJ Prashant, Jireh - Tumbiton.mp3 */,
-				9F2BA6022D9A001B00E69A1E /* Future Days.wav */,
-				9F2BA6032D9A001B00E69A1E /* Lawrence James - Conversation.mp3 */,
-				9F2BA6042D9A001B00E69A1E /* Lawrence James - Hold You In My Arms.mp3 */,
-				9F2BA6052D9A001B00E69A1E /* Lawrence James - I'm Fluming.mp3 */,
-				9F2BA6062D9A001B00E69A1E /* Lawrence James - That That That.mp3 */,
-				9F2BA6072D9A001B00E69A1E /* Lawrence James - Troyboi Vibes.mp3 */,
-				9F2BA6082D9A001B00E69A1E /* MAFX - zap.mp3 */,
-			);
-			path = "Pop & Mainstream";
-			sourceTree = "<group>";
-		};
-		9F2BA60E2D9A001B00E69A1E /* Techno */ = {
-			isa = PBXGroup;
-			children = (
-				9F2BA60A2D9A001B00E69A1E /* ALEXYUS - IN LOVE.mp3 */,
-				9F2BA60B2D9A001B00E69A1E /* Livsey - Past & Present.mp3 */,
-				9F2BA60C2D9A001B00E69A1E /* Livsey - Persist.mp3 */,
-				9F2BA60D2D9A001B00E69A1E /* Livsey & Hood Groove - Solitude (Techno Mix).mp3 */,
-			);
-			path = Techno;
-			sourceTree = "<group>";
-		};
-		9F2BA60F2D9A001B00E69A1E /* Music */ = {
-			isa = PBXGroup;
-			children = (
-				9F2BA5C02D9A001B00E69A1E /* Acapellas */,
-				9F2BA5C72D9A001B00E69A1E /* Bassline & Bass House */,
-				9F2BA5CD2D9A001B00E69A1E /* D&B */,
-				9F2BA5D52D9A001B00E69A1E /* EDM & Dance */,
-				9F2BA5D82D9A001B00E69A1E /* Garage Vibes */,
-				9F2BA5E42D9A001B00E69A1E /* Hip Hop, Trap, Afrobeats */,
-				9F2BA5FF2D9A001B00E69A1E /* House */,
-				9F2BA6092D9A001B00E69A1E /* Pop & Mainstream */,
-				9F2BA60E2D9A001B00E69A1E /* Techno */,
-			);
-			path = Music;
-			sourceTree = "<group>";
-		};
-		9F2BA6682D9A036200E69A1E /* Superpower */ = {
-			isa = PBXGroup;
-			children = (
-				9F2BA6622D9A036200E69A1E /* BPMAnalyzer-Bridging-Header.h */,
-				9F2BA6632D9A036200E69A1E /* libSuperpoweredAudioIOS.a */,
-				9F2BA6642D9A036200E69A1E /* Superpowered.mm */,
-				9F2BA6652D9A036200E69A1E /* SuperpoweredAnalyzer.h */,
-				9F2BA6662D9A036200E69A1E /* SuperpoweredDecoder.h */,
-				9F2BA6672D9A036200E69A1E /* SuperpoweredSimple.h */,
-			);
-			path = Superpower;
 			sourceTree = "<group>";
 		};
 		9F2BA66C2D9A03C200E69A1E /* Frameworks */ = {
@@ -502,17 +108,11 @@
 			isa = PBXGroup;
 			children = (
 				9FA70DC32D99EAD200E775A5 /* README.md */,
-				9F2BA5AC2D99FB7E00E69A1E /* Tempi Beat Detection */,
 				9FE417982D8CC3C800C1195C /* Preview Content */,
 				9FE417992D8CC3C800C1195C /* Assets.xcassets */,
 				9FE4179B2D8CC3C800C1195C /* Week8AssignmentApp.swift */,
 				9FE4179A2D8CC3C800C1195C /* ContentView.swift */,
-				9F2BA59D2D99F0DB00E69A1E /* Modular DJ Board */,
 				9F2BA5A62D99F0E200E69A1E /* 3D DJ Board */,
-				9F2BA5A22D99F0DF00E69A1E /* Audio Handling */,
-				9F2BA6682D9A036200E69A1E /* Superpower */,
-				9F2BA6612D9A036200E69A1E /* BPMAnalyzer.swift */,
-				9F2BA60F2D9A001B00E69A1E /* Music */,
 			);
 			path = Week8Assignment;
 			sourceTree = "<group>";
@@ -592,87 +192,6 @@
 			files = (
 				9FE4179D2D8CC3C800C1195C /* Preview Assets.xcassets in Resources */,
 				9FA70DB82D9746BD00E775A5 /* ddj_flx4_pioneer.usdz in Resources */,
-				9F2BA6102D9A001B00E69A1E /* Energy (Acapella).mp3 in Resources */,
-				9F2BA6112D9A001B00E69A1E /* Future Days.wav in Resources */,
-				9F2BA6122D9A001B00E69A1E /* Dudi Beats - Take down the house.mp3 in Resources */,
-				9F2BA6132D9A001B00E69A1E /* Lawrence James - Conversation.mp3 in Resources */,
-				9F2BA6142D9A001B00E69A1E /* Lawrence James - That That That.mp3 in Resources */,
-				9F2BA6152D9A001B00E69A1E /* Lawrence James - Worry Bout Them.mp3 in Resources */,
-				9F2BA6162D9A001B00E69A1E /* Conversation (Acapella).mp3 in Resources */,
-				9F2BA6172D9A001B00E69A1E /* Lawrence James - Move LikeThat.mp3 in Resources */,
-				9F2BA6182D9A001B00E69A1E /* Livsey - Rhythm.mp3 in Resources */,
-				9F2BA6192D9A001B00E69A1E /* Lawrence James - garage ting.mp3 in Resources */,
-				9F2BA61A2D9A001B00E69A1E /* Lawrence James - Hold You In My Arms.mp3 in Resources */,
-				9F2BA61B2D9A001B00E69A1E /* DJ Prashant, Jireh - Tumbiton.mp3 in Resources */,
-				9F2BA61C2D9A001B00E69A1E /* Lawrence James - Atmosphere.mp3 in Resources */,
-				9F2BA61D2D9A001B00E69A1E /* MAFX - zap.mp3 in Resources */,
-				9F2BA61E2D9A001B00E69A1E /* Livsey - Imagination.mp3 in Resources */,
-				9F2BA61F2D9A001B00E69A1E /* Gab Tritone - Blunted (Original Mix).mp3 in Resources */,
-				9F2BA6202D9A001B00E69A1E /* Lawrence James - Energy.mp3 in Resources */,
-				9F2BA6212D9A001B00E69A1E /* Win The Game ( Acapella ).mp3 in Resources */,
-				9F2BA6222D9A001B00E69A1E /* Dante Rives - Just Tech House.wav in Resources */,
-				9F2BA6232D9A001B00E69A1E /* Altus - The Silent Earth.mp3 in Resources */,
-				9F2BA6242D9A001B00E69A1E /* Livsey - Colt.wav in Resources */,
-				9F2BA6252D9A001B00E69A1E /* Lawrence James - See It Through My Eyes.mp3 in Resources */,
-				9F2BA6262D9A001B00E69A1E /* Lawrence James - Troyboi Vibes.mp3 in Resources */,
-				9F2BA6272D9A001B00E69A1E /* Livsey - Tutorial.mp3 in Resources */,
-				9F2BA6282D9A001B00E69A1E /* Body (Acapella).mp3 in Resources */,
-				9F2BA6292D9A001B00E69A1E /* Ed Da Head - Runner.mp3 in Resources */,
-				9F2BA62A2D9A001B00E69A1E /* Lawrence James - Don't You.mp3 in Resources */,
-				9F2BA62B2D9A001B00E69A1E /* Lawrence James - Stay With Me.mp3 in Resources */,
-				9F2BA62C2D9A001B00E69A1E /* Roberto Marín Muñoz - Hold On.mp3 in Resources */,
-				9F2BA62D2D9A001B00E69A1E /* Elke Meds - Wrap around.wav in Resources */,
-				9F2BA62E2D9A001B00E69A1E /* ALEXYUS - IN LOVE.mp3 in Resources */,
-				9F2BA62F2D9A001B00E69A1E /* Lawrence James - Win The Game.mp3 in Resources */,
-				9F2BA6302D9A001B00E69A1E /* Lawrence James - What They Want.mp3 in Resources */,
-				9F2BA6312D9A001B00E69A1E /* Ed Hale - Not Like You.mp3 in Resources */,
-				9F2BA6322D9A001B00E69A1E /* Worry Bout Them (Acapella).mp3 in Resources */,
-				9F2BA6332D9A001B00E69A1E /* See It Through My Eyes (Acapella).mp3 in Resources */,
-				9F2BA6342D9A001B00E69A1E /* Livsey - Conflict VIP.mp3 in Resources */,
-				9F2BA6352D9A001B00E69A1E /* Lawrence James - Oh Lord!.mp3 in Resources */,
-				9F2BA6362D9A001B00E69A1E /* Livsey - Homage.mp3 in Resources */,
-				9F2BA6372D9A001B00E69A1E /* Dante Rives - Sooth.wav in Resources */,
-				9F2BA6382D9A001B00E69A1E /* Zurra - CASH (Extended Mix) [HIGH DEFINITION].wav in Resources */,
-				9F2BA6392D9A001B00E69A1E /* Dante Rives - The Tribe.wav in Resources */,
-				9F2BA63A2D9A001B00E69A1E /* Stay With Me (Acapella).mp3 in Resources */,
-				9F2BA63B2D9A001B00E69A1E /* Kai Shibata - Fakers (Extended Mix) [OUTBOUND SOUNDS].wav in Resources */,
-				9F2BA63C2D9A001B00E69A1E /* Dante Rives - Clubz.wav in Resources */,
-				9F2BA63D2D9A001B00E69A1E /* Lawrence James - To The Market.mp3 in Resources */,
-				9F2BA63E2D9A001B00E69A1E /* Lawrence James - Soemthing.mp3 in Resources */,
-				9F2BA63F2D9A001B00E69A1E /* Lawrence James - Midnight Dub1.mp3 in Resources */,
-				9F2BA6402D9A001B00E69A1E /* Lawrence James - Body.mp3 in Resources */,
-				9F2BA6412D9A001B00E69A1E /* Dots Per Inch - Right Now ft Malachi K.P (Extended Mix) [HIGH DEFINITION].wav in Resources */,
-				9F2BA6422D9A001B00E69A1E /* That That That (Acapella).mp3 in Resources */,
-				9F2BA6432D9A001B00E69A1E /* Livsey - Switch Down.mp3 in Resources */,
-				9F2BA6442D9A001B00E69A1E /* Verberate - Let the Rhythm Take Control (Extended Version).mp3 in Resources */,
-				9F2BA6452D9A001B00E69A1E /* Atmosphere (Acapella).mp3 in Resources */,
-				9F2BA6462D9A001B00E69A1E /* Lawrence James - Lose Control Like.mp3 in Resources */,
-				9F2BA6472D9A001B00E69A1E /* Livsey - My Lyf.mp3 in Resources */,
-				9F2BA6482D9A001B00E69A1E /* Lawrence James - Smoke Up.mp3 in Resources */,
-				9F2BA6492D9A001B00E69A1E /* Move LikeThat (Acapella).mp3 in Resources */,
-				9F2BA64A2D9A001B00E69A1E /* DJ DEE ONE - AKUGBE ft Sammi Osas.mp3 in Resources */,
-				9F2BA64B2D9A001B00E69A1E /* Lawrence James - I'm Fluming.mp3 in Resources */,
-				9F2BA64C2D9A001B00E69A1E /* Livsey - Past & Present.mp3 in Resources */,
-				9F2BA64D2D9A001B00E69A1E /* Lawrence James - Know U.mp3 in Resources */,
-				9F2BA64E2D9A001B00E69A1E /* Terry Too Much - FOREVER LOVE.mp3 in Resources */,
-				9F2BA64F2D9A001B00E69A1E /* Lawrence James - Promise.mp3 in Resources */,
-				9F2BA6502D9A001B00E69A1E /* Kai Shibata - Undulating (Extended Mix).wav in Resources */,
-				9F2BA6512D9A001B00E69A1E /* In My Arms ( Acapella ).mp3 in Resources */,
-				9F2BA6522D9A001B00E69A1E /* Livsey & Hood Groove - Solitude (Techno Mix).mp3 in Resources */,
-				9F2BA6532D9A001B00E69A1E /* Livsey - Greenspud.mp3 in Resources */,
-				9F2BA6542D9A001B00E69A1E /* Roberto Marín Muñoz - I Feel Fire.mp3 in Resources */,
-				9F2BA6552D9A001B00E69A1E /* Elke Meds - Hi.wav in Resources */,
-				9F2BA6562D9A001B00E69A1E /* Lawrence James - DANCEFLAW.mp3 in Resources */,
-				9F2BA6572D9A001B00E69A1E /* Bear Like - For Your Love (Extended Mix).wav in Resources */,
-				9F2BA6582D9A001B00E69A1E /* Alexyus - Bad Ass .m4a in Resources */,
-				9F2BA6592D9A001B00E69A1E /* Lawrence James - Good Time.mp3 in Resources */,
-				9F2BA65A2D9A001B00E69A1E /* Roberto Marín Muñoz - Untouchable (Extended Version).mp3 in Resources */,
-				9F2BA65B2D9A001B00E69A1E /* Livsey - Ease The Pain VIP.mp3 in Resources */,
-				9F2BA65C2D9A001B00E69A1E /* Lawrence James - Feeling Dub.mp3 in Resources */,
-				9F2BA65D2D9A001B00E69A1E /* Blank Sense - Cover It Up (Extended Mix) [HIGH DEFINITION].wav in Resources */,
-				9F2BA65E2D9A001B00E69A1E /* Livsey - I Wonder.mp3 in Resources */,
-				9F2BA65F2D9A001B00E69A1E /* Zesto - Way You Move (Extended Mix) [HIGH DEFINITION].wav in Resources */,
-				9F2BA6602D9A001B00E69A1E /* Livsey - Persist.mp3 in Resources */,
 				9FA70DC42D99EAD200E775A5 /* README.md in Resources */,
 				9FE4179E2D8CC3C800C1195C /* Assets.xcassets in Resources */,
 			);
@@ -688,18 +207,7 @@
 				9F2BA5A72D99F0E200E69A1E /* 3DBoardView.swift in Sources */,
 				9F2BA5A82D99F0E200E69A1E /* ModelViewer.swift in Sources */,
 				9FE4179F2D8CC3C800C1195C /* ContentView.swift in Sources */,
-				9F2BA5B02D99FC2200E69A1E /* TempiFFT.swift in Sources */,
 				9FE417A02D8CC3C800C1195C /* Week8AssignmentApp.swift in Sources */,
-				9F2BA5A32D99F0DF00E69A1E /* AudioManager.swift in Sources */,
-				9F2BA59E2D99F0DB00E69A1E /* DeckView.swift in Sources */,
-				9F2BA5AE2D99FC0600E69A1E /* TempiPeakDetection.swift in Sources */,
-				9F2BA59F2D99F0DB00E69A1E /* ModularBoardView.swift in Sources */,
-				9F2BA5B22D99FE0E00E69A1E /* TempiAudioInput.swift in Sources */,
-				9F2BA5A02D99F0DB00E69A1E /* SelectTrackView.swift in Sources */,
-				9F2BA5AA2D99F6EC00E69A1E /* BeatDetector.swift in Sources */,
-				9F2BA5B42D99FE2C00E69A1E /* TempiBeatDetection.swift in Sources */,
-				9F2BA6692D9A036200E69A1E /* Superpowered.mm in Sources */,
-				9F2BA66A2D9A036200E69A1E /* BPMAnalyzer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

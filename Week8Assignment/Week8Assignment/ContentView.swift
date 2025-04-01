@@ -20,14 +20,11 @@ struct ContentView: View {
                     NavigationLink("3D Board View") {
                         _3DBoardView()
                     }
-                    NavigationLink("Modular Board") {
-                        ModularBoardView()
                     }
                 }
             }
         }
     }
-}
 
 #Preview {
     ContentView()
