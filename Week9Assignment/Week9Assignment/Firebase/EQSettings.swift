@@ -5,12 +5,10 @@
 //  Created by Prisha Jain on 4/8/25.
 //
 
-
-
-import Foundation
-
 // A model representing the EQ settings for a specific audio file.
 // This gets encoded/decoded when saving to or loading from Firestore.
+
+import Foundation
 
 struct EQSettings: Codable, Identifiable {
     /// Firestore document ID — we use the filename for uniqueness
