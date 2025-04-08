@@ -98,6 +98,7 @@
 		9FDA06D12D9C4218000D1E02 = {
 			isa = PBXGroup;
 			children = (
+				9F1115D32DA34FDD004A5BE2 /* README.md */,
 				9FDA06FB2D9C42A1000D1E02 /* Week9Assignment */,
 				9FDA06DB2D9C4218000D1E02 /* Products */,
 				9F6E2E552DA4E5BB00A01CC5 /* Music */,
@@ -133,7 +134,6 @@
 		9FDA06FB2D9C42A1000D1E02 /* Week9Assignment */ = {
 			isa = PBXGroup;
 			children = (
-				9F1115D32DA34FDD004A5BE2 /* README.md */,
 				9FDA06FA2D9C42A1000D1E02 /* Week9AssignmentApp.swift */,
 				9FDA06F92D9C42A1000D1E02 /* ContentView.swift */,
 				9FDA06F52D9C42A1000D1E02 /* Views */,
