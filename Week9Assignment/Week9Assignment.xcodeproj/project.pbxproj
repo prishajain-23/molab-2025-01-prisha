@@ -22,10 +22,6 @@
 		9F6E2DE02DA4E43C00A01CC5 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 9F6E2DDF2DA4E43C00A01CC5 /* FirebaseCore */; };
 		9F6E2DE22DA4E43C00A01CC5 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 9F6E2DE12DA4E43C00A01CC5 /* FirebaseFirestore */; };
 		9F6E2DE42DA4E43C00A01CC5 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 9F6E2DE32DA4E43C00A01CC5 /* FirebaseStorage */; };
-		9F6E2E562DA4E5BB00A01CC5 /* Alexyus - Bad Ass .m4a in Resources */ = {isa = PBXBuildFile; fileRef = 9F6E2E302DA4E5BB00A01CC5 /* Alexyus - Bad Ass .m4a */; };
-		9F6E2E572DA4E5BB00A01CC5 /* ALEXYUS - IN LOVE.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F6E2E312DA4E5BB00A01CC5 /* ALEXYUS - IN LOVE.mp3 */; };
-		9F6E2E582DA4E5BB00A01CC5 /* Bear Like - For Your Love (Extended Mix).wav in Resources */ = {isa = PBXBuildFile; fileRef = 9F6E2E322DA4E5BB00A01CC5 /* Bear Like - For Your Love (Extended Mix).wav */; };
-		9F6E2E592DA4E5BB00A01CC5 /* Blank Sense - Cover It Up (Extended Mix) [HIGH DEFINITION].wav in Resources */ = {isa = PBXBuildFile; fileRef = 9F6E2E332DA4E5BB00A01CC5 /* Blank Sense - Cover It Up (Extended Mix) [HIGH DEFINITION].wav */; };
 		9FDA06FC2D9C42A1000D1E02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FDA06F62D9C42A1000D1E02 /* Preview Assets.xcassets */; };
 		9FDA06FD2D9C42A1000D1E02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FDA06F82D9C42A1000D1E02 /* Assets.xcassets */; };
 		9FDA07002D9C42A1000D1E02 /* TrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDA06F42D9C42A1000D1E02 /* TrackView.swift */; };
@@ -43,10 +39,6 @@
 		9F37985C2DA4D84400A5645C /* FirebaseAudioStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAudioStorage.swift; sourceTree = "<group>"; };
 		9F37985E2DA4DAE000A5645C /* UserSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSelectView.swift; sourceTree = "<group>"; };
 		9F3798602DA4DBA200A5645C /* DefaultMusicPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultMusicPicker.swift; sourceTree = "<group>"; };
-		9F6E2E302DA4E5BB00A01CC5 /* Alexyus - Bad Ass .m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alexyus - Bad Ass .m4a"; sourceTree = "<group>"; };
-		9F6E2E312DA4E5BB00A01CC5 /* ALEXYUS - IN LOVE.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ALEXYUS - IN LOVE.mp3"; sourceTree = "<group>"; };
-		9F6E2E322DA4E5BB00A01CC5 /* Bear Like - For Your Love (Extended Mix).wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bear Like - For Your Love (Extended Mix).wav"; sourceTree = "<group>"; };
-		9F6E2E332DA4E5BB00A01CC5 /* Blank Sense - Cover It Up (Extended Mix) [HIGH DEFINITION].wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Blank Sense - Cover It Up (Extended Mix) [HIGH DEFINITION].wav"; sourceTree = "<group>"; };
 		9FDA06DA2D9C4218000D1E02 /* Week9Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week9Assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FDA06F42D9C42A1000D1E02 /* TrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackView.swift; sourceTree = "<group>"; };
 		9FDA06F62D9C42A1000D1E02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -96,10 +88,6 @@
 		9F6E2E552DA4E5BB00A01CC5 /* Music */ = {
 			isa = PBXGroup;
 			children = (
-				9F6E2E302DA4E5BB00A01CC5 /* Alexyus - Bad Ass .m4a */,
-				9F6E2E312DA4E5BB00A01CC5 /* ALEXYUS - IN LOVE.mp3 */,
-				9F6E2E322DA4E5BB00A01CC5 /* Bear Like - For Your Love (Extended Mix).wav */,
-				9F6E2E332DA4E5BB00A01CC5 /* Blank Sense - Cover It Up (Extended Mix) [HIGH DEFINITION].wav */,
 			);
 			path = Music;
 			sourceTree = "<group>";
@@ -231,10 +219,6 @@
 			files = (
 				9FDA06FC2D9C42A1000D1E02 /* Preview Assets.xcassets in Resources */,
 				9FDA06FD2D9C42A1000D1E02 /* Assets.xcassets in Resources */,
-				9F6E2E562DA4E5BB00A01CC5 /* Alexyus - Bad Ass .m4a in Resources */,
-				9F6E2E572DA4E5BB00A01CC5 /* ALEXYUS - IN LOVE.mp3 in Resources */,
-				9F6E2E582DA4E5BB00A01CC5 /* Bear Like - For Your Love (Extended Mix).wav in Resources */,
-				9F6E2E592DA4E5BB00A01CC5 /* Blank Sense - Cover It Up (Extended Mix) [HIGH DEFINITION].wav in Resources */,
 				9F1115D42DA34FDD004A5BE2 /* README.md in Resources */,
 				9F1116072DA3523C004A5BE2 /* GoogleService-Info.plist in Resources */,
 			);
