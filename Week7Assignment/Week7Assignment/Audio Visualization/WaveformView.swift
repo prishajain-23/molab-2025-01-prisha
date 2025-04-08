@@ -17,7 +17,7 @@ struct WaveformView: View {
 
     var body: some View {
         NodeOutputView(node)
-            .background(Color.black.opacity(0.2)) // Slight background contrast
+            .background(Color.secondary.opacity(0.2)) // Slight background contrast
             .foregroundColor(color) // Apply extracted color to waveform
             .frame(height: 100)
             .clipShape(RoundedRectangle(cornerRadius: 10))

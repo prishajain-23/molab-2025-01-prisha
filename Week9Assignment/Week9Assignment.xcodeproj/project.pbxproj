@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F1115852DA34905004A5BE2 /* SoundpipeAudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9F1115842DA34905004A5BE2 /* SoundpipeAudioKit */; };
+		9F1115D22DA34D5B004A5BE2 /* AudioFilePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1115D12DA34D5B004A5BE2 /* AudioFilePicker.swift */; };
+		9F1115D42DA34FDD004A5BE2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9F1115D32DA34FDD004A5BE2 /* README.md */; };
+		9F1116072DA3523C004A5BE2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F1116062DA3523C004A5BE2 /* GoogleService-Info.plist */; };
+		9F3798572DA4D72F00A5645C /* UserSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3798562DA4D72F00A5645C /* UserSessionManager.swift */; };
+		9F37985B2DA4D82600A5645C /* EQSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F37985A2DA4D82600A5645C /* EQSettings.swift */; };
+		9F37985D2DA4D84400A5645C /* FirebaseAudioStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F37985C2DA4D84400A5645C /* FirebaseAudioStorage.swift */; };
+		9F37985F2DA4DAE000A5645C /* UserSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F37985E2DA4DAE000A5645C /* UserSelectView.swift */; };
+		9F3798612DA4DBA200A5645C /* DefaultMusicPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3798602DA4DBA200A5645C /* DefaultMusicPicker.swift */; };
+		9F6E2DD82DA4E40E00A01CC5 /* AudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9F6E2DD72DA4E40E00A01CC5 /* AudioKit */; };
+		9F6E2DDB2DA4E41600A01CC5 /* AudioKitUI in Frameworks */ = {isa = PBXBuildFile; productRef = 9F6E2DDA2DA4E41600A01CC5 /* AudioKitUI */; };
+		9F6E2DDE2DA4E43C00A01CC5 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 9F6E2DDD2DA4E43C00A01CC5 /* FirebaseAuth */; };
+		9F6E2DE02DA4E43C00A01CC5 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 9F6E2DDF2DA4E43C00A01CC5 /* FirebaseCore */; };
+		9F6E2DE22DA4E43C00A01CC5 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 9F6E2DE12DA4E43C00A01CC5 /* FirebaseFirestore */; };
+		9F6E2DE42DA4E43C00A01CC5 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 9F6E2DE32DA4E43C00A01CC5 /* FirebaseStorage */; };
+		9F6E2E562DA4E5BB00A01CC5 /* Alexyus - Bad Ass .m4a in Resources */ = {isa = PBXBuildFile; fileRef = 9F6E2E302DA4E5BB00A01CC5 /* Alexyus - Bad Ass .m4a */; };
+		9F6E2E572DA4E5BB00A01CC5 /* ALEXYUS - IN LOVE.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F6E2E312DA4E5BB00A01CC5 /* ALEXYUS - IN LOVE.mp3 */; };
+		9F6E2E582DA4E5BB00A01CC5 /* Bear Like - For Your Love (Extended Mix).wav in Resources */ = {isa = PBXBuildFile; fileRef = 9F6E2E322DA4E5BB00A01CC5 /* Bear Like - For Your Love (Extended Mix).wav */; };
+		9F6E2E592DA4E5BB00A01CC5 /* Blank Sense - Cover It Up (Extended Mix) [HIGH DEFINITION].wav in Resources */ = {isa = PBXBuildFile; fileRef = 9F6E2E332DA4E5BB00A01CC5 /* Blank Sense - Cover It Up (Extended Mix) [HIGH DEFINITION].wav */; };
+		9FDA06FC2D9C42A1000D1E02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FDA06F62D9C42A1000D1E02 /* Preview Assets.xcassets */; };
+		9FDA06FD2D9C42A1000D1E02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FDA06F82D9C42A1000D1E02 /* Assets.xcassets */; };
+		9FDA07002D9C42A1000D1E02 /* TrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDA06F42D9C42A1000D1E02 /* TrackView.swift */; };
+		9FDA07012D9C42A1000D1E02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDA06F92D9C42A1000D1E02 /* ContentView.swift */; };
+		9FDA07022D9C42A1000D1E02 /* Week9AssignmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDA06FA2D9C42A1000D1E02 /* Week9AssignmentApp.swift */; };
+		9FDA07072D9C4457000D1E02 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDA07062D9C4456000D1E02 /* AudioManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9F1115D12DA34D5B004A5BE2 /* AudioFilePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioFilePicker.swift; sourceTree = "<group>"; };
+		9F1115D32DA34FDD004A5BE2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9F1116062DA3523C004A5BE2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9F3798562DA4D72F00A5645C /* UserSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSessionManager.swift; sourceTree = "<group>"; };
+		9F37985A2DA4D82600A5645C /* EQSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EQSettings.swift; sourceTree = "<group>"; };
+		9F37985C2DA4D84400A5645C /* FirebaseAudioStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAudioStorage.swift; sourceTree = "<group>"; };
+		9F37985E2DA4DAE000A5645C /* UserSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSelectView.swift; sourceTree = "<group>"; };
+		9F3798602DA4DBA200A5645C /* DefaultMusicPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultMusicPicker.swift; sourceTree = "<group>"; };
+		9F6E2E302DA4E5BB00A01CC5 /* Alexyus - Bad Ass .m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alexyus - Bad Ass .m4a"; sourceTree = "<group>"; };
+		9F6E2E312DA4E5BB00A01CC5 /* ALEXYUS - IN LOVE.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ALEXYUS - IN LOVE.mp3"; sourceTree = "<group>"; };
+		9F6E2E322DA4E5BB00A01CC5 /* Bear Like - For Your Love (Extended Mix).wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bear Like - For Your Love (Extended Mix).wav"; sourceTree = "<group>"; };
+		9F6E2E332DA4E5BB00A01CC5 /* Blank Sense - Cover It Up (Extended Mix) [HIGH DEFINITION].wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Blank Sense - Cover It Up (Extended Mix) [HIGH DEFINITION].wav"; sourceTree = "<group>"; };
+		9FDA06DA2D9C4218000D1E02 /* Week9Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week9Assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FDA06F42D9C42A1000D1E02 /* TrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackView.swift; sourceTree = "<group>"; };
+		9FDA06F62D9C42A1000D1E02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9FDA06F82D9C42A1000D1E02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FDA06F92D9C42A1000D1E02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9FDA06FA2D9C42A1000D1E02 /* Week9AssignmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week9AssignmentApp.swift; sourceTree = "<group>"; };
+		9FDA07062D9C4456000D1E02 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FDA06D72D9C4218000D1E02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1115852DA34905004A5BE2 /* SoundpipeAudioKit in Frameworks */,
+				9F6E2DE02DA4E43C00A01CC5 /* FirebaseCore in Frameworks */,
+				9F6E2DD82DA4E40E00A01CC5 /* AudioKit in Frameworks */,
+				9F6E2DDB2DA4E41600A01CC5 /* AudioKitUI in Frameworks */,
+				9F6E2DE42DA4E43C00A01CC5 /* FirebaseStorage in Frameworks */,
+				9F6E2DDE2DA4E43C00A01CC5 /* FirebaseAuth in Frameworks */,
+				9F6E2DE22DA4E43C00A01CC5 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F3798582DA4D7D500A5645C /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				9F1115D12DA34D5B004A5BE2 /* AudioFilePicker.swift */,
+				9FDA07062D9C4456000D1E02 /* AudioManager.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		9F3798592DA4D7F800A5645C /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				9F3798562DA4D72F00A5645C /* UserSessionManager.swift */,
+				9F37985A2DA4D82600A5645C /* EQSettings.swift */,
+				9F37985C2DA4D84400A5645C /* FirebaseAudioStorage.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		9F6E2E552DA4E5BB00A01CC5 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				9F6E2E302DA4E5BB00A01CC5 /* Alexyus - Bad Ass .m4a */,
+				9F6E2E312DA4E5BB00A01CC5 /* ALEXYUS - IN LOVE.mp3 */,
+				9F6E2E322DA4E5BB00A01CC5 /* Bear Like - For Your Love (Extended Mix).wav */,
+				9F6E2E332DA4E5BB00A01CC5 /* Blank Sense - Cover It Up (Extended Mix) [HIGH DEFINITION].wav */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		9FDA06D12D9C4218000D1E02 = {
+			isa = PBXGroup;
+			children = (
+				9FDA06FB2D9C42A1000D1E02 /* Week9Assignment */,
+				9FDA06DB2D9C4218000D1E02 /* Products */,
+				9F6E2E552DA4E5BB00A01CC5 /* Music */,
+			);
+			sourceTree = "<group>";
+		};
+		9FDA06DB2D9C4218000D1E02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FDA06DA2D9C4218000D1E02 /* Week9Assignment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FDA06F52D9C42A1000D1E02 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9FDA06F42D9C42A1000D1E02 /* TrackView.swift */,
+				9F3798602DA4DBA200A5645C /* DefaultMusicPicker.swift */,
+				9F37985E2DA4DAE000A5645C /* UserSelectView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9FDA06F72D9C42A1000D1E02 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9FDA06F62D9C42A1000D1E02 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9FDA06FB2D9C42A1000D1E02 /* Week9Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				9F1115D32DA34FDD004A5BE2 /* README.md */,
+				9FDA06FA2D9C42A1000D1E02 /* Week9AssignmentApp.swift */,
+				9FDA06F92D9C42A1000D1E02 /* ContentView.swift */,
+				9FDA06F52D9C42A1000D1E02 /* Views */,
+				9F3798592DA4D7F800A5645C /* Firebase */,
+				9F3798582DA4D7D500A5645C /* Audio */,
+				9FDA06F72D9C42A1000D1E02 /* Preview Content */,
+				9FDA06F82D9C42A1000D1E02 /* Assets.xcassets */,
+				9F1116062DA3523C004A5BE2 /* GoogleService-Info.plist */,
+			);
+			path = Week9Assignment;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FDA06D92D9C4218000D1E02 /* Week9Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FDA06E82D9C4219000D1E02 /* Build configuration list for PBXNativeTarget "Week9Assignment" */;
+			buildPhases = (
+				9FDA06D62D9C4218000D1E02 /* Sources */,
+				9FDA06D72D9C4218000D1E02 /* Frameworks */,
+				9FDA06D82D9C4218000D1E02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Week9Assignment;
+			packageProductDependencies = (
+				9F1115842DA34905004A5BE2 /* SoundpipeAudioKit */,
+				9F6E2DD72DA4E40E00A01CC5 /* AudioKit */,
+				9F6E2DDA2DA4E41600A01CC5 /* AudioKitUI */,
+				9F6E2DDD2DA4E43C00A01CC5 /* FirebaseAuth */,
+				9F6E2DDF2DA4E43C00A01CC5 /* FirebaseCore */,
+				9F6E2DE12DA4E43C00A01CC5 /* FirebaseFirestore */,
+				9F6E2DE32DA4E43C00A01CC5 /* FirebaseStorage */,
+			);
+			productName = Week9Assignment;
+			productReference = 9FDA06DA2D9C4218000D1E02 /* Week9Assignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FDA06D22D9C4218000D1E02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					9FDA06D92D9C4218000D1E02 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 9FDA06D52D9C4218000D1E02 /* Build configuration list for PBXProject "Week9Assignment" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FDA06D12D9C4218000D1E02;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				9F1115832DA34905004A5BE2 /* XCRemoteSwiftPackageReference "SoundpipeAudioKit" */,
+				9F6E2DD62DA4E40E00A01CC5 /* XCRemoteSwiftPackageReference "AudioKit" */,
+				9F6E2DD92DA4E41600A01CC5 /* XCRemoteSwiftPackageReference "AudioKitUI" */,
+				9F6E2DDC2DA4E43C00A01CC5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9FDA06DB2D9C4218000D1E02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FDA06D92D9C4218000D1E02 /* Week9Assignment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FDA06D82D9C4218000D1E02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FDA06FC2D9C42A1000D1E02 /* Preview Assets.xcassets in Resources */,
+				9FDA06FD2D9C42A1000D1E02 /* Assets.xcassets in Resources */,
+				9F6E2E562DA4E5BB00A01CC5 /* Alexyus - Bad Ass .m4a in Resources */,
+				9F6E2E572DA4E5BB00A01CC5 /* ALEXYUS - IN LOVE.mp3 in Resources */,
+				9F6E2E582DA4E5BB00A01CC5 /* Bear Like - For Your Love (Extended Mix).wav in Resources */,
+				9F6E2E592DA4E5BB00A01CC5 /* Blank Sense - Cover It Up (Extended Mix) [HIGH DEFINITION].wav in Resources */,
+				9F1115D42DA34FDD004A5BE2 /* README.md in Resources */,
+				9F1116072DA3523C004A5BE2 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FDA06D62D9C4218000D1E02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F3798572DA4D72F00A5645C /* UserSessionManager.swift in Sources */,
+				9F37985B2DA4D82600A5645C /* EQSettings.swift in Sources */,
+				9FDA07072D9C4457000D1E02 /* AudioManager.swift in Sources */,
+				9F3798612DA4DBA200A5645C /* DefaultMusicPicker.swift in Sources */,
+				9F1115D22DA34D5B004A5BE2 /* AudioFilePicker.swift in Sources */,
+				9FDA07002D9C42A1000D1E02 /* TrackView.swift in Sources */,
+				9F37985D2DA4D84400A5645C /* FirebaseAudioStorage.swift in Sources */,
+				9FDA07012D9C42A1000D1E02 /* ContentView.swift in Sources */,
+				9F37985F2DA4DAE000A5645C /* UserSelectView.swift in Sources */,
+				9FDA07022D9C42A1000D1E02 /* Week9AssignmentApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9FDA06E62D9C4219000D1E02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9FDA06E72D9C4219000D1E02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FDA06E92D9C4219000D1E02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Week9Assignment/Preview Content\"";
+				DEVELOPMENT_TEAM = U24HL57839;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "molab-2025.Week9Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FDA06EA2D9C4219000D1E02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Week9Assignment/Preview Content\"";
+				DEVELOPMENT_TEAM = U24HL57839;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "molab-2025.Week9Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FDA06D52D9C4218000D1E02 /* Build configuration list for PBXProject "Week9Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FDA06E62D9C4219000D1E02 /* Debug */,
+				9FDA06E72D9C4219000D1E02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FDA06E82D9C4219000D1E02 /* Build configuration list for PBXNativeTarget "Week9Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FDA06E92D9C4219000D1E02 /* Debug */,
+				9FDA06EA2D9C4219000D1E02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9F1115832DA34905004A5BE2 /* XCRemoteSwiftPackageReference "SoundpipeAudioKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/SoundpipeAudioKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.1;
+			};
+		};
+		9F6E2DD62DA4E40E00A01CC5 /* XCRemoteSwiftPackageReference "AudioKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/AudioKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.5;
+			};
+		};
+		9F6E2DD92DA4E41600A01CC5 /* XCRemoteSwiftPackageReference "AudioKitUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/AudioKitUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.7;
+			};
+		};
+		9F6E2DDC2DA4E43C00A01CC5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9F1115842DA34905004A5BE2 /* SoundpipeAudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F1115832DA34905004A5BE2 /* XCRemoteSwiftPackageReference "SoundpipeAudioKit" */;
+			productName = SoundpipeAudioKit;
+		};
+		9F6E2DD72DA4E40E00A01CC5 /* AudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F6E2DD62DA4E40E00A01CC5 /* XCRemoteSwiftPackageReference "AudioKit" */;
+			productName = AudioKit;
+		};
+		9F6E2DDA2DA4E41600A01CC5 /* AudioKitUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F6E2DD92DA4E41600A01CC5 /* XCRemoteSwiftPackageReference "AudioKitUI" */;
+			productName = AudioKitUI;
+		};
+		9F6E2DDD2DA4E43C00A01CC5 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F6E2DDC2DA4E43C00A01CC5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		9F6E2DDF2DA4E43C00A01CC5 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F6E2DDC2DA4E43C00A01CC5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		9F6E2DE12DA4E43C00A01CC5 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F6E2DDC2DA4E43C00A01CC5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		9F6E2DE32DA4E43C00A01CC5 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F6E2DDC2DA4E43C00A01CC5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9FDA06D22D9C4218000D1E02 /* Project object */;
+}
