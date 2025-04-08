@@ -1,3 +1,4 @@
 *.xcuserstate
 Week6Assignment/Week6Assignment.xcodeproj/project.xcworkspace/xcuserdata/prishajain.xcuserdatad/UserInterfaceState.xcuserstate
 Week6Assignment/.DS_Store
+*.gitignore
