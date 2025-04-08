@@ -3,7 +3,11 @@ This app allows users to load local files from their phones and adjust the high-
 
 Using a Firebase backend, users are able to save filter settings from different user ids.
 
-References:
+## Things that don't work
+- usernames don't save- i think they're not actually being stored in Firebase
+- loading "default music" i.e. the files in this project isn't working
+
+## References:
 - ChatGPT 
     Wrote AudioManager, AudioFilePicker, and TrackView
 - MoGallery by jht
@@ -12,7 +16,7 @@ References:
 
 This is a modular DJ-style iOS app built using SwiftUI 5.9, AudioKit, and Firebase Firestore. It allows users to load audio files, adjust EQ filters, and save per-user EQ settings.
 
-## What the App Does
+### What the App Does
 
 - Users can select or create a **username** to identify themselves
 - Users can load audio files from:
@@ -24,7 +28,7 @@ This is a modular DJ-style iOS app built using SwiftUI 5.9, AudioKit, and Fireba
 - Users can save their EQ settings to Firestore, which are restored when that file is reloaded
 - All EQ data is stored under the selected username for personal or shared use
 
-## Key Technologies
+### Key Technologies
 
 - **SwiftUI 5.9**: UI and data flow
 - **AudioKit**: Audio engine, filters, and playback
@@ -32,7 +36,7 @@ This is a modular DJ-style iOS app built using SwiftUI 5.9, AudioKit, and Fireba
 - **UIDocumentPicker**: Lets users load local audio files
 - **@Observable / @Bindable**: Swift’s latest data binding model
 
-## Code Overview
+### Code Overview
 
 - `TrackView`: Main UI for playback, EQ control, and file/user selection
 - `AudioManager`: Singleton that runs the audio engine and applies filters
@@ -43,7 +47,7 @@ This is a modular DJ-style iOS app built using SwiftUI 5.9, AudioKit, and Fireba
 - `FirebaseAudioStorage`: Reads/writes EQ settings to Firestore
 - `EQSettings`: Model used to serialize EQ settings to Firebase
 
-## How It's Organized
+### How It's Organized
 
 This app separates logic by domain:
 - UI views = in SwiftUI files
